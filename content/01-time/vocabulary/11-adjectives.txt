@@ -1,0 +1,22 @@
+punctual|/ˈpʌŋktʃuəl/|adj|ملتزم بالمواعيد|badge:🧑‍💼/⏰|He is always punctual for meetings.|يلتزم دائمًا بمواعيد الاجتماعات.
+on time|/ˌɑːn ˈtaɪm/|phr|في الموعد المحدد|badge:🚆/✅|The train left on time.|غادر القطار في موعده.
+overdue|/ˌoʊvərˈduː/|adj|متأخر عن موعده|badge:🧾/⚠️|This bill is two weeks overdue.|تأخر سداد هذه الفاتورة أسبوعين.
+current|/ˈkɜːrənt/|adj|حالي|tl:50~🏠|What is your current address?|ما عنوانك الحالي؟
+previous|/ˈpriːviəs/|adj|سابق|tl:30~💼|I learned a lot in my previous job.|تعلمت كثيرًا في وظيفتي السابقة.
+former|/ˈfɔːrmər/|adj|سابق (منصب)|tl:15~🎖️|She met the former president.|قابلت الرئيس السابق.
+recent|/ˈriːsənt/|adj|حديث|tl:44~🖼️|Send me a recent photo.|أرسل لي صورة حديثة.
+following|/ˈfɑːloʊɪŋ/|adj|التالي|tl:62~📞|He called me the following day.|اتصل بي في اليوم التالي.
+upcoming|/ˈʌpkʌmɪŋ/|adj|قادم|tl:72~📝|Are you ready for the upcoming exam?|هل أنت مستعد للامتحان القادم؟
+ancient|/ˈeɪnʃənt/|adj|قديم جدًا / أثري|🏺|We visited the ancient temples of Luxor.|زرنا معابد الأقصر الأثرية.
+modern|/ˈmɑːdərn/|adj|حديث / عصري|🏙️|They live in a modern apartment.|يعيشون في شقة عصرية.
+old-fashioned|/ˌoʊld ˈfæʃənd/|adj|قديم الطراز|📻|My father has old-fashioned ideas about work.|لدى والدي أفكار قديمة عن العمل.
+up to date|/ˌʌp tə ˈdeɪt/|adj|محدَّث|badge:📄/✅|Keep your records up to date.|حافظ على تحديث سجلاتك.
+out of date|/ˌaʊt əv ˈdeɪt/|adj|قديم / منتهي الصلاحية|badge:🗺️/❌|This map is out of date.|هذه الخريطة قديمة.
+temporary|/ˈtempəreri/|adj|مؤقت|badge:⛺/⏳|She found a temporary job for the summer.|وجدت وظيفة مؤقتة للصيف.
+permanent|/ˈpɜːrmənənt/|adj|دائم|badge:🏠/♾️|I'm looking for a permanent position.|أبحث عن وظيفة دائمة.
+brief|/briːf/|adj|موجز / قصير|cap:💬~1 min|We had a brief conversation.|أجرينا محادثة قصيرة.
+long-term|/ˌlɔːŋ ˈtɜːrm/|adj|طويل الأمد|cap:🌳~10+ years|What are your long-term plans?|ما خططك طويلة الأمد؟
+short-term|/ˌʃɔːrt ˈtɜːrm/|adj|قصير الأمد|cap:🌱~3 months|This is only a short-term solution.|هذا مجرد حل قصير الأمد.
+urgent|/ˈɜːrdʒənt/|adj|عاجل|🚨|I have an urgent message for you.|لدي رسالة عاجلة لك.
+busy|/ˈbɪzi/|adj|مشغول|🤹|I'm very busy this morning.|أنا مشغول جدًا هذا الصباح.
+free|/friː/|adj|متفرغ|no:📋|Are you free on Saturday?|هل أنت متفرغ يوم السبت؟

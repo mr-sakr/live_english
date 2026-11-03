@@ -1,0 +1,20 @@
+dawn|/dɔːn/|n|الفجر|sky:dawn|We left the house at dawn.|غادرنا البيت عند الفجر.
+sunrise|/ˈsʌnraɪz/|n|شروق الشمس|sky:sunrise|We watched the sunrise from the beach.|شاهدنا الشروق من الشاطئ.
+morning|/ˈmɔːrnɪŋ/|n|الصباح|badge:[sky:morning]/☕|I drink coffee every morning.|أشرب القهوة كل صباح.
+noon|/nuːn/|n|الظهر (12 ظهرًا)|badge:[clock:12:00]/☀️|The shop closes at noon on Fridays.|يغلق المتجر عند الظهر أيام الجمعة.
+midday|/ˌmɪdˈdeɪ/|n|منتصف النهار|badge:[sky:noon]/🥵|The sun is hottest at midday.|تكون الشمس في أشد حرارتها منتصف النهار.
+afternoon|/ˌæftərˈnuːn/|n|بعد الظهر|sky:afternoon|Let's meet this afternoon.|لنلتقِ بعد ظهر اليوم.
+sunset|/ˈsʌnset/|n|غروب الشمس|sky:sunset|The sky turned orange at sunset.|تحولت السماء إلى البرتقالي عند الغروب.
+evening|/ˈiːvnɪŋ/|n|المساء|badge:[sky:evening]/🍽️|We usually have dinner in the evening.|نتناول العشاء عادة في المساء.
+dusk|/dʌsk/|n|الغسق|badge:[sky:dusk]/💡|The street lights come on at dusk.|تُضاء أنوار الشارع عند الغسق.
+twilight|/ˈtwaɪlaɪt/|n|الشفق|badge:[sky:twilight]/🚶|We walked home in the twilight.|عدنا إلى البيت مشيًا في ضوء الشفق.
+night|/naɪt/|n|الليل|sky:night|I can't sleep at night when it's hot.|لا أستطيع النوم ليلًا حين يكون الجو حارًا.
+midnight|/ˈmɪdnaɪt/|n|منتصف الليل|badge:[clock:12:00]/🌙|The party ended at midnight.|انتهت الحفلة عند منتصف الليل.
+daytime|/ˈdeɪtaɪm/|n|النهار|badge:[sky:afternoon]/🏘️|It's noisy here in the daytime.|المكان صاخب هنا أثناء النهار.
+nighttime|/ˈnaɪttaɪm/|n|فترة الليل|🌃|The roads are quieter at nighttime.|الطرق أهدأ في الليل.
+today|/təˈdeɪ/|adv|اليوم|days:0|What are you doing today?|ماذا ستفعل اليوم؟
+tonight|/təˈnaɪt/|adv|الليلة|cap:🌙~this night|Are you free tonight?|هل أنت متفرغ الليلة؟
+tomorrow|/təˈmɑːroʊ/|adv|غدًا|days:1|I have an exam tomorrow.|لدي امتحان غدًا.
+yesterday|/ˈjestərdeɪ/|adv|أمس|days:-1|I saw him yesterday.|رأيته أمس.
+the day after tomorrow|/ðə ˌdeɪ ˌæftər təˈmɑːroʊ/|phr|بعد غد|days:2|We travel the day after tomorrow.|نسافر بعد غد.
+the day before yesterday|/ðə ˌdeɪ bɪˌfɔːr ˈjestərdeɪ/|phr|أول أمس|days:-2|It rained the day before yesterday.|أمطرت أول أمس.

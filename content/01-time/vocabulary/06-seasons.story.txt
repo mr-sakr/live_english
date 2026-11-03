@@ -1,0 +1,13 @@
+## conversation
+A|Which do you like more, summer or winter?|أيهما تفضل أكثر، الصيف أم الشتاء؟
+B|Neither! I love spring, when the whole city smells of flowers.|ولا أيهما! أحب الربيع، حين تفوح المدينة كلها برائحة الزهور.
+A|I prefer autumn. Or, as my American friends say, fall.|أنا أفضّل الخريف. أو كما يسميه أصدقائي الأمريكيون fall.
+B|Are you visiting them this year?|هل ستزورهم هذا العام؟
+A|Yes. I've saved two weeks of vacation for the trip. What's the date of your sister's wedding?|نعم. ادخرت أسبوعين من الإجازة للرحلة. ما تاريخ زفاف أختك؟
+B|It's on June 3rd, which is also my parents' wedding anniversary.|في 3 يونيو، وهو أيضًا ذكرى زواج والديّ.
+A|How sweet! And isn't your birthday around then?|يا له من أمر جميل! أليس عيد ميلادك في ذلك الوقت تقريبًا؟
+B|It's a week later. And then there's the public holiday, so it's a very busy month.|بعد ذلك بأسبوع. ثم تأتي العطلة الرسمية، لذا فهو شهر مزدحم جدًا.
+A|Will you come to the music festival with us?|هل ستأتي معنا إلى مهرجان الموسيقى؟
+B|I'd love to, but let's first plan our party for New Year!|يسعدني ذلك، لكن لنخطط أولًا لحفلة رأس السنة!
+## paragraph
+Every part of the year has its own beauty and its own special days. In spring the trees turn green and the air feels fresh. The summer is long and hot, so most families take a vacation by the sea. Then autumn arrives, with cool winds and golden leaves. Americans call this season fall, because that is what the leaves do. Winter brings short days and cold nights, and we stay at home more. People also mark the year with celebrations. We remember the date of each birthday and each wedding anniversary, and we look forward to every public holiday. Our town holds a food festival in October, and thousands of visitors come. At the end of December, we all stay up late to welcome the New Year with fireworks.|لكل جزء من السنة جماله وأيامه الخاصة. ففي الربيع تخضرّ الأشجار ويصبح الهواء منعشًا. والصيف طويل وحار، لذا تقضي معظم العائلات إجازتها بجوار البحر. ثم يأتي الخريف برياحه الباردة وأوراقه الذهبية. ويسمي الأمريكيون هذا الفصل fall، أي «السقوط»، لأن هذا ما تفعله الأوراق. ويأتي الشتاء بأيامه القصيرة ولياليه الباردة، فنبقى في البيت أكثر. ويحتفي الناس أيضًا بأيام السنة. فنتذكر تاريخ كل عيد ميلاد وكل ذكرى زواج، ونتطلع إلى كل عطلة رسمية. وتقيم بلدتنا مهرجانًا للطعام في أكتوبر، فيأتي آلاف الزوار. وفي نهاية ديسمبر نسهر جميعًا لاستقبال رأس السنة بالألعاب النارية.

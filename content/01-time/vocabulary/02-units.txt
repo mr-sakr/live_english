@@ -1,0 +1,27 @@
+time|/taɪm/|n|وقت|🕰️|We don't have much time.|ليس لدينا وقت كثير.
+moment|/ˈmoʊmənt/|n|لحظة|cap:📸~click!|Please wait a moment.|من فضلك انتظر لحظة.
+instant|/ˈɪnstənt/|n|لحظة خاطفة|⚡|The lights went out in an instant.|انطفأت الأنوار في لحظة.
+second|/ˈsekənd/|n|ثانية|tile:1 sec|It only takes a second.|لا يستغرق الأمر سوى ثانية.
+minute|/ˈmɪnɪt/|n|دقيقة|tile:60 sec|I'll be there in ten minutes.|سأكون هناك خلال عشر دقائق.
+hour|/ˈaʊər/|n|ساعة (60 دقيقة)|tile:60 min|The flight takes about an hour.|تستغرق الرحلة نحو ساعة.
+half an hour|/ˌhæf ən ˈaʊər/|n|نصف ساعة|tile:30 min|Dinner will be ready in half an hour.|سيكون العشاء جاهزًا خلال نصف ساعة.
+quarter of an hour|/ˌkwɔːrtər əv ən ˈaʊər/|n|ربع ساعة|tile:15 min|The bus comes every quarter of an hour.|تأتي الحافلة كل ربع ساعة.
+day|/deɪ/|n|يوم|tile:24 hours|There are seven days in a week.|في الأسبوع سبعة أيام.
+week|/wiːk/|n|أسبوع|tile:7 days|I go to the gym twice a week.|أذهب إلى النادي مرتين في الأسبوع.
+fortnight|/ˈfɔːrtnaɪt/|n|أسبوعان (بريطانية)|tile:14 days|We're going on holiday for a fortnight.|سنذهب في عطلة لمدة أسبوعين.
+month|/mʌnθ/|n|شهر|tile:30 days|Rent is due at the start of each month.|يُستحق الإيجار في بداية كل شهر.
+quarter|/ˈkwɔːrtər/|n|ربع سنة|tile:3 months|Sales rose in the last quarter.|ارتفعت المبيعات في الربع الأخير.
+season|/ˈsiːzən/|n|فصل (من السنة)|grid:🌸,☀️,🍂,❄️|Autumn is my favorite season.|الخريف فصلي المفضل.
+year|/jɪr/|n|سنة|tile:365 days|She has lived here for a year.|تعيش هنا منذ سنة.
+leap year|/ˈliːp jɪr/|n|سنة كبيسة|tile:366 days|February has 29 days in a leap year.|لشهر فبراير 29 يومًا في السنة الكبيسة.
+decade|/ˈdekeɪd/|n|عقد (10 سنوات)|tile:10 years|Prices have doubled in a decade.|تضاعفت الأسعار خلال عقد.
+generation|/ˌdʒenəˈreɪʃən/|n|جيل|pair:👴>👨>👦|The recipe has passed down for generations.|انتقلت الوصفة عبر الأجيال.
+century|/ˈsentʃəri/|n|قرن|tile:100 years|This house was built in the last century.|بُني هذا البيت في القرن الماضي.
+millennium|/mɪˈleniəm/|n|ألفية|tile:1000 years|The city is more than a millennium old.|عمر المدينة أكثر من ألف عام.
+era|/ˈɪrə/|n|عصر / حقبة|🏛️|We live in the digital era.|نعيش في العصر الرقمي.
+age|/eɪdʒ/|n|عمر / عصر|cap:🧑~16 years old|He started working at the age of sixteen.|بدأ العمل في سن السادسة عشرة.
+lifetime|/ˈlaɪftaɪm/|n|مدى الحياة|cap:🧓~0 → 90 years|This is the chance of a lifetime.|هذه فرصة العمر.
+eternity|/ɪˈtɜːrnəti/|n|الأبدية / وقت طويل جدًا|♾️|The wait felt like an eternity.|بدا الانتظار وكأنه دهر.
+period|/ˈpɪriəd/|n|فترة|tl:30-70~🏘️|We lived there for a short period.|عشنا هناك لفترة قصيرة.
+duration|/duˈreɪʃən/|n|مدة|cap:🎓~6 weeks|The duration of the course is six weeks.|مدة الدورة ستة أسابيع.
+interval|/ˈɪntərvəl/|n|فاصل زمني|tl:15,35,55,75,95~💊|Take the tablets at regular intervals.|تناول الأقراص على فترات منتظمة.

@@ -1,0 +1,23 @@
+wait|/weɪt/|v|ينتظر|badge:🧍/⏳|I waited for an hour at the station.|انتظرت ساعة في المحطة.
+hurry|/ˈhɜːri/|v|يُسرع / يستعجل|🏃|Hurry up, or we'll miss the train.|أسرع وإلا فاتنا القطار.
+rush|/rʌʃ/|v|يندفع / يتعجل|badge:🏃/💨|Don't rush your decision.|لا تتعجل في قرارك.
+last|/læst/|v|يستمر / يدوم|cap:👥~2 hours|The meeting lasted two hours.|استمر الاجتماع ساعتين.
+take|/teɪk/|v|يستغرق|cap:🚗~1 hour|It takes me an hour to get to work.|يستغرق وصولي إلى العمل ساعة.
+spend|/spend/|v|يقضي (وقتًا)|together:📱+⏳|I spend too much time on my phone.|أقضي وقتًا طويلًا على هاتفي.
+waste|/weɪst/|v|يُضيّع|pair:⏰>🗑️|Don't waste your time on this.|لا تضيّع وقتك في هذا.
+save|/seɪv/|v|يوفّر|pair:⏰>🐷|This new system saves a lot of time.|يوفر هذا النظام الجديد وقتًا كثيرًا.
+schedule|/ˈskedʒuːl/|v|يحدد موعدًا|badge:🗓️/✏️|Let's schedule the call for Monday.|لنحدد موعد المكالمة يوم الاثنين.
+reschedule|/ˌriːˈskedʒuːl/|v|يغيّر الموعد|badge:🗓️/🔄|Can we reschedule our meeting?|هل يمكننا تغيير موعد اجتماعنا؟
+postpone|/poʊstˈpoʊn/|v|يؤجّل|badge:⚽/⏭️|The match was postponed because of rain.|تأجلت المباراة بسبب المطر.
+delay|/dɪˈleɪ/|v|يؤخّر|badge:🚦/🐢|Heavy traffic delayed our arrival.|أخّر الازدحام الشديد وصولنا.
+cancel|/ˈkænsəl/|v|يُلغي|badge:✈️/❌|They had to cancel the flight.|اضطروا إلى إلغاء الرحلة.
+expire|/ɪkˈspaɪər/|v|ينتهي (صلاحيته)|badge:🪪/⌛|My passport expires next month.|ينتهي جواز سفري الشهر القادم.
+begin|/bɪˈɡɪn/|v|يبدأ|cap:🎬~ACTION!|The lesson begins at ten.|يبدأ الدرس في العاشرة.
+start|/stɑːrt/|v|يبدأ|🚦|What time does the film start?|متى يبدأ الفيلم؟
+finish|/ˈfɪnɪʃ/|v|يُنهي|🏁|I'll finish this by tonight.|سأنهي هذا بحلول الليلة.
+end|/end/|v|ينتهي|pair:▶️>⏹️|The contract ends in June.|ينتهي العقد في يونيو.
+continue|/kənˈtɪnjuː/|v|يستمر / يواصل|rep:➡️*3|Please continue with your work.|من فضلك واصل عملك.
+pass|/pæs/|v|يمر (الوقت)|pair:🕐>🕓|Time passes quickly when you're busy.|يمر الوقت بسرعة حين تكون مشغولًا.
+oversleep|/ˌoʊvərˈsliːp/|v|يغلبه النوم فيتأخر|badge:😴/⏰|I overslept and missed the bus.|غلبني النوم وفاتتني الحافلة.
+set|/set/|v|يضبط|badge:⌚/🔧|Don't forget to set your alarm.|لا تنسَ ضبط منبهك.
+remind|/rɪˈmaɪnd/|v|يذكّر|badge:📝/🔔|Please remind me about the appointment.|من فضلك ذكّرني بالموعد.

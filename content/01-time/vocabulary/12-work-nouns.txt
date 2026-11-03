@@ -1,0 +1,16 @@
+deadline|/ˈdedlaɪn/|n|الموعد النهائي|badge:📄/⏰|The deadline for the project is Friday.|الموعد النهائي للمشروع يوم الجمعة.
+appointment|/əˈpɔɪntmənt/|n|موعد (رسمي)|badge:🩺/🗓️|I have an appointment with the doctor.|لدي موعد مع الطبيب.
+meeting|/ˈmiːtɪŋ/|n|اجتماع|👥|The meeting starts at two o'clock.|يبدأ الاجتماع الساعة الثانية.
+shift|/ʃɪft/|n|وردية|badge:👷/🌙|She works the night shift at the hospital.|تعمل في الوردية الليلية بالمستشفى.
+overtime|/ˈoʊvərtaɪm/|n|عمل إضافي|cap:💼~+3 hours|I worked three hours of overtime yesterday.|عملت أمس ثلاث ساعات إضافية.
+break|/breɪk/|n|استراحة|☕|Let's take a ten-minute break.|لنأخذ استراحة عشر دقائق.
+routine|/ruːˈtiːn/|n|روتين|pair:🪥>🥣>🚌|Exercise is part of my daily routine.|الرياضة جزء من روتيني اليومي.
+delay|/dɪˈleɪ/|n|تأخير|badge:🚆/🐢|We apologize for the delay.|نعتذر عن التأخير.
+rush hour|/ˈrʌʃ ˌaʊər/|n|ساعة الذروة|rep:🚗*4|Avoid the city center during rush hour.|تجنب وسط المدينة في ساعة الذروة.
+office hours|/ˈɔːfɪs ˌaʊərz/|n|ساعات الدوام|badge:🏢/🕘|Please call during office hours.|من فضلك اتصل خلال ساعات الدوام.
+timeline|/ˈtaɪmlaɪn/|n|جدول زمني|tl:10,35,65,90~🗂️|What's the timeline for this project?|ما الجدول الزمني لهذا المشروع؟
+stage|/steɪdʒ/|n|مرحلة|🪜|The project is in its final stage.|المشروع في مرحلته النهائية.
+milestone|/ˈmaɪlstoʊn/|n|مرحلة مهمة / إنجاز|🚩|Launching the app was a major milestone.|كان إطلاق التطبيق إنجازًا كبيرًا.
+reminder|/rɪˈmaɪndər/|n|تذكير|🔔|I'll send you a reminder tomorrow.|سأرسل لك تذكيرًا غدًا.
+punctuality|/ˌpʌŋktʃuˈæləti/|n|الالتزام بالمواعيد|together:🎯+⏰|Punctuality is important in this company.|الالتزام بالمواعيد مهم في هذه الشركة.
+time management|/ˈtaɪm ˌmænɪdʒmənt/|n|إدارة الوقت|badge:🕰️/📊|Good time management reduces stress.|تقلل إدارة الوقت الجيدة من التوتر.

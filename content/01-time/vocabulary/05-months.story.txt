@@ -1,0 +1,13 @@
+## conversation
+A|When is the best time to visit Egypt?|ما أفضل وقت لزيارة مصر؟
+B|It depends. January and February are cool and perfect for Luxor and Aswan.|يعتمد الأمر. يناير وفبراير معتدلان ومثاليان للأقصر وأسوان.
+A|And what about the spring?|وماذا عن الربيع؟
+B|March is pleasant, but April and May can bring hot, dusty winds.|مارس لطيف، لكن أبريل ومايو قد يحملان رياحًا حارة ومتربة.
+A|My holiday is in the summer. Is June too hot?|إجازتي في الصيف. هل يونيو حار جدًا؟
+B|June is hot, and July is even hotter. By August, everyone goes to the beach!|يونيو حار، ويوليو أشد حرارة. وبحلول أغسطس يذهب الجميع إلى الشاطئ!
+A|Maybe I should wait. How is September?|ربما عليّ أن أنتظر. كيف هو سبتمبر؟
+B|September is still warm, and October is one of the nicest months.|سبتمبر ما زال دافئًا، وأكتوبر من ألطف الشهور.
+A|Then I'll ask my boss for a week in November.|إذن سأطلب من مديري أسبوعًا في نوفمبر.
+B|Good choice. But book early, because hotels fill up quickly in December.|اختيار جيد. لكن احجز مبكرًا، فالفنادق تمتلئ بسرعة في ديسمبر.
+## paragraph
+Our family business has a busy calendar all year. In January we plan the year, and in February we meet our suppliers. The first big orders come in March, and by April the warehouse is full. In May we hire extra workers, because June is the start of the tourist season. July is our busiest month, and in August we hardly have time to sleep. Things calm down in September, so most of us take our holidays then. In October we check the results and make new designs. November is the month of the big trade fair in Cairo. Finally, in December we close the accounts, thank our staff, and get ready to begin again.|لعمل عائلتنا تقويم مزدحم طوال العام. في يناير نخطط للعام، وفي فبراير نلتقي بموردينا. وتأتي أولى الطلبيات الكبيرة في مارس، وبحلول أبريل يكون المخزن ممتلئًا. وفي مايو نوظف عمالًا إضافيين، لأن يونيو بداية الموسم السياحي. ويوليو أكثر شهورنا ازدحامًا، وفي أغسطس لا نكاد نجد وقتًا للنوم. وتهدأ الأمور في سبتمبر، فيأخذ معظمنا إجازته حينها. وفي أكتوبر نراجع النتائج ونضع تصميمات جديدة. ونوفمبر شهر المعرض التجاري الكبير في القاهرة. وأخيرًا، في ديسمبر نغلق الحسابات ونشكر موظفينا ونستعد للبدء من جديد.

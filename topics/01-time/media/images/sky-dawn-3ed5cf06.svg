@@ -1,0 +1,1 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'><defs><linearGradient id='sdawn' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#2c3e6b'/><stop offset='1' stop-color='#f5a08a'/></linearGradient></defs><rect x='4' y='4' width='112' height='112' rx='14' fill='url(#sdawn)'/><path d='M4 90h112v12a14 14 0 0 1-14 14H18A14 14 0 0 1 4 102z' fill='#26323f'/></svg>

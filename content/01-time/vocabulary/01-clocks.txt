@@ -1,0 +1,20 @@
+clock|/klɑːk/|n|ساعة (حائط أو مكتب)|clock:10:10|The clock on the wall is five minutes fast.|ساعة الحائط مُقدَّمة خمس دقائق.
+watch|/wɑːtʃ/|n|ساعة يد|⌚|She looked at her watch and left the room.|نظرت إلى ساعتها وغادرت الغرفة.
+wristwatch|/ˈrɪstwɑːtʃ/|n|ساعة معصم|wrist|My grandfather gave me his old wristwatch.|أهداني جدي ساعة يده القديمة.
+alarm clock|/əˈlɑːrm klɑːk/|n|منبّه|⏰|I set my alarm clock for six.|ضبطت المنبّه على السادسة.
+stopwatch|/ˈstɑːpwɑːtʃ/|n|ساعة إيقاف|⏱️|The coach timed the race with a stopwatch.|قاس المدرب زمن السباق بساعة إيقاف.
+timer|/ˈtaɪmər/|n|مؤقّت|⏲️|Set a timer for twenty minutes.|اضبط مؤقتًا على عشرين دقيقة.
+hourglass|/ˈaʊərɡlæs/|n|ساعة رملية|⏳|The sand in the hourglass ran out.|نفد الرمل في الساعة الرملية.
+sundial|/ˈsʌndaɪəl/|n|مزولة (ساعة شمسية)|sundial|People used a sundial to tell the time.|استخدم الناس المزولة لمعرفة الوقت.
+calendar|/ˈkæləndər/|n|تقويم|📅|I marked the meeting on my calendar.|سجلت الاجتماع في تقويمي.
+planner|/ˈplænər/|n|مفكرة تخطيط|badge:📒/🖊️|She writes her tasks in a weekly planner.|تكتب مهامها في مفكرة أسبوعية.
+schedule|/ˈskedʒuːl/|n|جدول مواعيد|🗓️|My schedule is full this week.|جدولي ممتلئ هذا الأسبوع.
+timetable|/ˈtaɪmteɪbəl/|n|جدول زمني (للقطارات والدراسة)|timetable|Check the train timetable before you leave.|راجع جدول القطارات قبل أن تغادر.
+agenda|/əˈdʒendə/|n|جدول أعمال|📋|What is on the agenda today?|ما المدرج في جدول الأعمال اليوم؟
+clock face|/ˈklɑːk feɪs/|n|وجه الساعة|face|The clock face has twelve numbers.|يحمل وجه الساعة اثني عشر رقمًا.
+hour hand|/ˈaʊər hænd/|n|عقرب الساعات|clock:7:00:h|The hour hand is the short one.|عقرب الساعات هو القصير.
+minute hand|/ˈmɪnɪt hænd/|n|عقرب الدقائق|clock:7:20:m|The minute hand moves faster than the hour hand.|يتحرك عقرب الدقائق أسرع من عقرب الساعات.
+second hand|/ˈsekənd hænd/|n|عقرب الثواني|clock:1:00:s|The second hand goes around once a minute.|يدور عقرب الثواني دورة كل دقيقة.
+digital clock|/ˈdɪdʒɪtəl klɑːk/|n|ساعة رقمية|digital:07:45|The digital clock showed 7:45.|أظهرت الساعة الرقمية 7:45.
+time zone|/ˈtaɪm zoʊn/|n|منطقة زمنية|badge:🌍/🕐|London and Cairo are in different time zones.|لندن والقاهرة في منطقتين زمنيتين مختلفتين.
+daylight saving time|/ˌdeɪlaɪt ˈseɪvɪŋ taɪm/|n|التوقيت الصيفي|badge:🌞/⏩|Daylight saving time starts in spring.|يبدأ التوقيت الصيفي في الربيع.

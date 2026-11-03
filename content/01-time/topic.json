@@ -1,0 +1,47 @@
+{
+  "id": "01-time",
+  "en": "The Time",
+  "ar": "الوقت",
+  "emoji": "⏰",
+  "groups": [
+    {
+      "id": "vocabulary",
+      "en": "Vocabulary",
+      "ar": "المفردات",
+      "sections": [
+        {"id": "01-clocks", "type": "words", "en": "Clocks & Planning Tools", "ar": "الساعات وأدوات التنظيم"},
+        {"id": "02-units", "type": "words", "en": "Units of Time", "ar": "وحدات الوقت"},
+        {"id": "03-day-parts", "type": "words", "en": "Parts of the Day", "ar": "أجزاء اليوم"},
+        {"id": "04-days", "type": "words", "en": "Days of the Week", "ar": "أيام الأسبوع"},
+        {"id": "05-months", "type": "words", "en": "Months", "ar": "الشهور"},
+        {"id": "06-seasons", "type": "words", "en": "Seasons & Special Dates", "ar": "الفصول والمناسبات"},
+        {"id": "07-past-present-future", "type": "words", "en": "Past, Present & Future", "ar": "الماضي والحاضر والمستقبل"},
+        {"id": "08-frequency", "type": "words", "en": "How Often", "ar": "التكرار"},
+        {"id": "09-connectors", "type": "words", "en": "Time Connectors", "ar": "روابط الوقت"},
+        {"id": "10-verbs", "type": "words", "en": "Time Verbs", "ar": "أفعال الوقت"},
+        {"id": "11-adjectives", "type": "words", "en": "Time Adjectives", "ar": "صفات الوقت"},
+        {"id": "12-work-nouns", "type": "words", "en": "Time at Work", "ar": "الوقت في العمل"}
+      ]
+    },
+    {
+      "id": "expressions",
+      "en": "Expressions",
+      "ar": "التعبيرات",
+      "sections": [
+        {"id": "01-telling-time", "type": "expressions", "en": "Telling the Time", "ar": "قراءة الساعة"},
+        {"id": "02-idioms", "type": "expressions", "en": "Idioms", "ar": "التعبيرات الاصطلاحية"},
+        {"id": "03-collocations", "type": "expressions", "en": "Natural Word Partners", "ar": "المتلازمات اللفظية"}
+      ]
+    },
+    {
+      "id": "in-context",
+      "en": "In Context",
+      "ar": "في السياق",
+      "sections": [
+        {"id": "01-prepositions", "type": "sentences", "en": "at / on / in and More", "ar": "حروف الجر مع الوقت"},
+        {"id": "02-useful-sentences", "type": "sentences", "en": "Useful Sentences", "ar": "جمل جاهزة"},
+        {"id": "03-dialogues", "type": "dialogues", "en": "Conversations", "ar": "محادثات"}
+      ]
+    }
+  ]
+}

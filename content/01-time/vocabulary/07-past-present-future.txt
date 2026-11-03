@@ -1,0 +1,27 @@
+past|/pæst/|n|الماضي|tl:5-45~🏰|Learn from the past.|تعلّم من الماضي.
+present|/ˈprezənt/|n|الحاضر|tl:50~🧘|Try to live in the present.|حاول أن تعيش الحاضر.
+future|/ˈfjuːtʃər/|n|المستقبل|tl:55-95~🚀|Nobody knows what the future holds.|لا أحد يعلم ما يخبئه المستقبل.
+history|/ˈhɪstəri/|n|التاريخ (الأحداث الماضية)|📜|The city has a long history.|للمدينة تاريخ طويل.
+now|/naʊ/|adv|الآن|tl:50~📍|I have to go now.|عليّ أن أذهب الآن.
+right now|/ˌraɪt ˈnaʊ/|adv|الآن تحديدًا|badge:🧑‍💻/📍|I'm busy right now.|أنا مشغول الآن.
+then|/ðen/|adv|حينئذٍ / ثم|tl:25~🧒~at that time|I was living in Alexandria then.|كنت أعيش في الإسكندرية حينها.
+nowadays|/ˈnaʊədeɪz/|adv|في هذه الأيام|badge:📱/💳|Nowadays, most people pay by phone.|يدفع معظم الناس بالهاتف في هذه الأيام.
+currently|/ˈkɜːrəntli/|adv|حاليًا|tl:40-60~🧑‍💼|She is currently working in Dubai.|تعمل حاليًا في دبي.
+recently|/ˈriːsəntli/|adv|مؤخرًا|tl:42~🆕|I recently changed my job.|غيّرت وظيفتي مؤخرًا.
+lately|/ˈleɪtli/|adv|في الآونة الأخيرة|tl:35-50~👀|Have you seen him lately?|هل رأيته في الآونة الأخيرة؟
+already|/ɔːlˈredi/|adv|بالفعل / من قبل|pair:🍽️>✅|I've already eaten.|لقد أكلت بالفعل.
+yet|/jet/|adv|بعد / حتى الآن|badge:🚌/❓|Has the bus arrived yet?|هل وصلت الحافلة بعد؟
+still|/stɪl/|adv|ما زال|badge:🌧️/🔁|It's still raining.|ما زالت تمطر.
+just|/dʒʌst/|adv|للتو|tl:47~🏁|I've just finished my work.|انتهيت من عملي للتو.
+ago|/əˈɡoʊ/|adv|منذ (في الماضي)|cap:⏪~2 years|I met her two years ago.|قابلتها قبل سنتين.
+formerly|/ˈfɔːrmərli/|adv|سابقًا|pair:🏰>🏨|The hotel was formerly a palace.|كان الفندق قصرًا في السابق.
+once|/wʌns/|adv|ذات مرة / مرة واحدة|cap:🗼~1 time|I once lived in Paris.|عشت في باريس ذات مرة.
+soon|/suːn/|adv|قريبًا|tl:58~👋|See you soon!|أراك قريبًا!
+later|/ˈleɪtər/|adv|لاحقًا|tl:75~📞|I'll call you later.|سأتصل بك لاحقًا.
+shortly|/ˈʃɔːrtli/|adv|بعد قليل|cap:⏳~5 min|The manager will be with you shortly.|سيكون المدير معك بعد قليل.
+eventually|/ɪˈventʃuəli/|adv|في نهاية المطاف|pair:🚶>🏠|We eventually found the right house.|وجدنا في النهاية البيت المناسب.
+immediately|/ɪˈmiːdiətli/|adv|فورًا|pair:📞>🏃|Please call me immediately.|من فضلك اتصل بي فورًا.
+suddenly|/ˈsʌdənli/|adv|فجأة|💥|Suddenly, the lights went out.|فجأة انطفأت الأنوار.
+early|/ˈɜːrli/|adv|مبكرًا|badge:🌅/⏰|I get up early on weekdays.|أستيقظ مبكرًا في أيام العمل.
+late|/leɪt/|adv|متأخرًا|badge:🏃/⏰|Sorry, I arrived late.|آسف، وصلت متأخرًا.
+in advance|/ˌɪn ədˈvæns/|phr|مقدَّمًا|pair:🎟️>🎭|Please book your seats in advance.|من فضلك احجز مقاعدك مقدَّمًا.

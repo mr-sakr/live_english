@@ -1,0 +1,12 @@
+spring|/sprɪŋ/|n|الربيع|🌸|Flowers bloom in spring.|تتفتح الأزهار في الربيع.
+summer|/ˈsʌmər/|n|الصيف|☀️|We spend the summer by the sea.|نقضي الصيف بجوار البحر.
+autumn|/ˈɔːtəm/|n|الخريف (بريطانية)|🍂|The leaves turn red in autumn.|تتحول الأوراق إلى الأحمر في الخريف.
+fall|/fɔːl/|n|الخريف (أمريكية)|🍁|We moved to Boston last fall.|انتقلنا إلى بوسطن الخريف الماضي.
+winter|/ˈwɪntər/|n|الشتاء|⛄|It rarely snows here in winter.|نادرًا ما تثلج هنا في الشتاء.
+date|/deɪt/|n|تاريخ|tile:12 May|What's the date today?|ما تاريخ اليوم؟
+birthday|/ˈbɜːrθdeɪ/|n|عيد ميلاد|🎂|Happy birthday! Have a great day.|عيد ميلاد سعيد! أتمنى لك يومًا رائعًا.
+anniversary|/ˌænɪˈvɜːrsəri/|n|ذكرى سنوية|💍|Today is our tenth wedding anniversary.|اليوم الذكرى العاشرة لزواجنا.
+holiday|/ˈhɑːlədeɪ/|n|عطلة|🏖️|Monday is a public holiday.|الاثنين عطلة رسمية.
+vacation|/veɪˈkeɪʃən/|n|إجازة (أمريكية)|🧳|I'm taking a week's vacation in July.|سآخذ إجازة أسبوع في يوليو.
+New Year|/ˌnuː ˈjɪr/|n|رأس السنة|🎆|We celebrated New Year with our friends.|احتفلنا برأس السنة مع أصدقائنا.
+festival|/ˈfestəvəl/|n|مهرجان / عيد|🎪|The film festival takes place every autumn.|يقام مهرجان الأفلام كل خريف.

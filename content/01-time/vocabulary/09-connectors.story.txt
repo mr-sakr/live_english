@@ -1,0 +1,16 @@
+## conversation
+A|When does the conference start? I've been waiting here since eight.|متى يبدأ المؤتمر؟ أنا أنتظر هنا منذ الثامنة.
+B|At nine, but the speakers will arrive before the guests.|في التاسعة، لكن المتحدثين سيصلون قبل الضيوف.
+A|What should we do first?|ماذا نفعل أولًا؟
+B|First, let's check the room. Please send me the list as soon as you can.|أولًا، لنتفقد القاعة. من فضلك أرسل لي القائمة بمجرد أن تستطيع.
+A|I'll do it while you test the microphones. Meanwhile, who is ordering the food?|سأفعل ذلك بينما تختبر الميكروفونات. وفي غضون ذلك، من سيطلب الطعام؟
+B|Nour is. She has to confirm the numbers by ten.|نور. عليها تأكيد الأعداد في موعد أقصاه العاشرة.
+A|Will people have lunch after the first session?|هل سيتناول الناس الغداء بعد الجلسة الأولى؟
+B|Yes. Lunch is from twelve until one, and nobody may leave during the speech.|نعم. الغداء من الثانية عشرة حتى الواحدة، ولا يجوز لأحد المغادرة أثناء الكلمة.
+A|And what happens next?|وماذا سيحدث بعد ذلك؟
+B|Two workshops will run at the same time for two hours.|ستُعقد ورشتان في الوقت نفسه لمدة ساعتين.
+A|We should have told everyone beforehand.|كان ينبغي أن نخبر الجميع مسبقًا.
+B|I'll send a message now. We can relax afterwards.|سأرسل رسالة الآن. يمكننا الاسترخاء بعد ذلك.
+A|Look! The first speaker has finally arrived.|انظر! لقد وصل المتحدث الأول أخيرًا.
+## paragraph
+Moving to a new city takes careful planning. I started looking for an apartment three months before my new job began, and I have lived here since April. First, I made a list of everything I had to do. I wanted to sign the contract by the end of the month, so I visited ten places in two weeks. I stayed with my cousin for a while, from March until the day the apartment was ready. During that time, I packed my books while my brother painted the walls. Meanwhile, my mother was calling us at the same time every evening to give us advice. When the big day came, I told the movers everything beforehand. They arrived before seven and started as soon as the truck was parked. After that, we carried the heavy boxes upstairs. Next, we set up the beds. Afterwards, we were so tired that we sat on the floor and ate sandwiches. Finally, the place began to feel like home.|يتطلب الانتقال إلى مدينة جديدة تخطيطًا دقيقًا. بدأت البحث عن شقة قبل ثلاثة أشهر من بدء عملي الجديد، وأعيش هنا منذ أبريل. أولًا، أعددت قائمة بكل ما عليّ فعله. أردت توقيع العقد في موعد أقصاه نهاية الشهر، فزرت عشرة أماكن خلال أسبوعين. وأقمت عند ابن عمي لبعض الوقت، من مارس حتى اليوم الذي أصبحت فيه الشقة جاهزة. وخلال ذلك الوقت حزمت كتبي بينما كان أخي يطلي الجدران. وفي غضون ذلك كانت أمي تتصل بنا في الوقت نفسه كل مساء لتقدم لنا النصائح. وعندما جاء اليوم الكبير، أخبرت عمال النقل بكل شيء مسبقًا. وصلوا قبل السابعة وبدؤوا بمجرد أن رُكنت الشاحنة. وبعد ذلك حملنا الصناديق الثقيلة إلى الطابق العلوي. ثم جهزنا الأسرّة. وبعد ذلك كنا متعبين جدًا حتى إننا جلسنا على الأرض وأكلنا السندويتشات. وأخيرًا بدأ المكان يبدو كأنه بيت.

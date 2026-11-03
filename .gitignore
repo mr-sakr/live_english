@@ -1,0 +1,5 @@
+# Rebuilt automatically by tools/build.py and tools/audio_lessons.py
+tools/lesson-clips/
+tools/emoji-cache/
+__pycache__/
+*.part

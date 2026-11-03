@@ -1,0 +1,20 @@
+What time is it?|كم الساعة؟|badge:[clock:10:10]/❓|Excuse me, what time is it?|عفوًا، كم الساعة؟
+Do you have the time?|هل تعرف كم الساعة؟|badge:🙋/⌚|Sorry, do you have the time?|معذرة، هل تعرف كم الساعة؟
+It's three o'clock.|الساعة الثالثة تمامًا|clock:3:00|It's three o'clock, so we should go.|الساعة الثالثة، لذا علينا الذهاب.
+five past three|الثالثة وخمس دقائق|clock:3:05|The train leaves at five past three.|يغادر القطار في الثالثة وخمس دقائق.
+ten past three|الثالثة وعشر دقائق|clock:3:10|We arrived at ten past three.|وصلنا في الثالثة وعشر دقائق.
+quarter past three|الثالثة والربع|clock:3:15|The lesson begins at quarter past three.|يبدأ الدرس في الثالثة والربع.
+twenty past three|الثالثة والثلث|clock:3:20|Meet me at twenty past three.|قابلني في الثالثة والثلث.
+half past three|الثالثة والنصف|clock:3:30|I finish work at half past three.|أنهي عملي في الثالثة والنصف.
+twenty to four|الرابعة إلا ثلثًا|clock:3:40|It's twenty to four already.|الساعة الآن الرابعة إلا ثلثًا.
+quarter to four|الرابعة إلا ربعًا|clock:3:45|The film starts at quarter to four.|يبدأ الفيلم في الرابعة إلا ربعًا.
+ten to four|الرابعة إلا عشر دقائق|clock:3:50|The bus comes at ten to four.|تأتي الحافلة في الرابعة إلا عشر دقائق.
+three thirty|الثالثة والنصف (طريقة مباشرة)|digital:03:30|My flight lands at three thirty.|تهبط رحلتي الثالثة والنصف.
+seven a.m.|السابعة صباحًا|digital:07:00|I wake up at seven a.m.|أستيقظ في السابعة صباحًا.
+seven p.m.|السابعة مساءً|digital:19:00|The shop closes at seven p.m.|يغلق المتجر في السابعة مساءً.
+at nine sharp|في التاسعة تمامًا|badge:[clock:9:00]/🎯|The meeting starts at nine sharp.|يبدأ الاجتماع في التاسعة تمامًا.
+at about eight|في حوالي الثامنة|cap:[clock:8:00]~≈ 8|I'll be home at about eight.|سأكون في البيت في حوالي الثامنة.
+almost six|السادسة تقريبًا|clock:5:55|It's almost six. Let's go home.|الساعة تقارب السادسة. لنذهب إلى البيت.
+just after five|بعد الخامسة بقليل|clock:5:02|She called just after five.|اتصلت بعد الخامسة بقليل.
+My watch is fast.|ساعتي مُقدَّمة|badge:⌚/⏩|My watch is fast, so I'm always early.|ساعتي مقدَّمة، لذا أصل مبكرًا دائمًا.
+My watch is slow.|ساعتي متأخرة|badge:⌚/⏪|Sorry I'm late. My watch is slow.|آسف على تأخري، ساعتي متأخرة.

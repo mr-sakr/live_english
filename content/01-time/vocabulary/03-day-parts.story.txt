@@ -1,0 +1,17 @@
+## conversation
+A|What are your plans for today? Are you still going to the desert?|ما خططك لليوم؟ هل ما زلت ذاهبًا إلى الصحراء؟
+B|Yes, but not today. We leave tomorrow, before dawn.|نعم، لكن ليس اليوم. نغادر غدًا قبل الفجر.
+A|So early? Why?|بهذا التبكير؟ لماذا؟
+B|We want to watch the sunrise from the top of the hill. The morning there is beautiful and cool.|نريد مشاهدة الشروق من أعلى التل. الصباح هناك جميل ومنعش.
+A|It must get very hot by noon.|لا بد أن الجو يصبح حارًا جدًا عند الظهر.
+B|Terribly. At midday we'll rest in the tent, and the daytime heat won't drop until late afternoon.|جدًا. سنستريح في الخيمة منتصف النهار، ولن تنخفض حرارة النهار إلا في أواخر فترة ما بعد الظهر.
+A|And then what?|وماذا بعد ذلك؟
+B|We'll climb again for the sunset. At dusk the guide will light a fire, and we'll sit in the twilight and tell stories.|سنصعد مجددًا لمشاهدة الغروب. وعند الغسق سيشعل المرشد نارًا، وسنجلس في ضوء الشفق ونتبادل القصص.
+A|That sounds like a perfect evening. Will you sleep outside?|يبدو هذا مساءً مثاليًا. هل ستنامون في العراء؟
+B|Yes. At night you can see every star. We usually stay up until midnight.|نعم. في الليل يمكنك رؤية كل نجمة. نسهر عادة حتى منتصف الليل.
+A|Isn't it cold in the nighttime?|أليس الجو باردًا في الليل؟
+B|Very cold! I bought a warm jacket yesterday, and my brother bought his the day before yesterday.|بارد جدًا! اشتريت معطفًا دافئًا أمس، واشترى أخي معطفه أول أمس.
+A|When will you be back?|متى ستعود؟
+B|The day after tomorrow. Can we meet tonight, before I pack?|بعد غد. هل يمكننا اللقاء الليلة قبل أن أحزم أمتعتي؟
+## paragraph
+Life in our village follows the sun. My grandfather wakes up at dawn, when the sky is still dark and pink, and he walks to the fields before sunrise. By the time the morning sun is warm, he has already finished half of his work. At noon he comes home for lunch, because nobody can work in the fields at midday in the summer. In the afternoon he takes a short nap, and then he returns to work until sunset. The evening is my favorite part of the day, because the whole family sits together and drinks tea. At dusk the children run home, and in the twilight the first stars appear. During the daytime the village is full of noise, but at night it becomes completely quiet. In the nighttime you can hear only the dogs and the wind. Nobody stays awake until midnight, except my cousin, who loves his phone. Yesterday my grandfather told me that today is the last day of the harvest. Tomorrow he will rest, and tonight we will celebrate. The day before yesterday he looked tired, but he smiled and said that the day after tomorrow he will start planning for next year.|تسير الحياة في قريتنا مع الشمس. يستيقظ جدي عند الفجر، حين تكون السماء ما زالت داكنة وورديّة، ويمشي إلى الحقول قبل الشروق. وحين تصبح شمس الصباح دافئة يكون قد أنهى نصف عمله. وعند الظهر يعود إلى البيت لتناول الغداء، لأن أحدًا لا يستطيع العمل في الحقول منتصف النهار في الصيف. وبعد الظهر يأخذ قيلولة قصيرة، ثم يعود إلى العمل حتى الغروب. والمساء هو الجزء المفضل لدي من اليوم، لأن العائلة كلها تجلس معًا وتشرب الشاي. وعند الغسق يركض الأطفال إلى بيوتهم، وفي ضوء الشفق تظهر النجوم الأولى. وأثناء النهار تمتلئ القرية بالضجيج، لكنها تصبح هادئة تمامًا في الليل. وفي فترة الليل لا تسمع سوى الكلاب والريح. ولا يبقى أحد مستيقظًا حتى منتصف الليل، إلا ابن عمي الذي يحب هاتفه. وقد أخبرني جدي أمس أن اليوم هو آخر أيام الحصاد. وغدًا سيستريح، والليلة سنحتفل. وبدا متعبًا أول أمس، لكنه ابتسم وقال إنه بعد غد سيبدأ التخطيط للعام القادم.

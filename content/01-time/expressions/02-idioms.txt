@@ -1,0 +1,34 @@
+Time flies.|الوقت يمر بسرعة|badge:🕰️/🪽|Time flies when you're having fun.|يمر الوقت بسرعة حين تستمتع.
+Time is money.|الوقت من ذهب|together:⏰+💰|Let's start now. Time is money.|لنبدأ الآن. الوقت من ذهب.
+Better late than never.|أن تأتي متأخرًا خير من ألا تأتي|pair:🐢>🏆|You finally called me. Better late than never!|اتصلت بي أخيرًا. خير من ألا تتصل أبدًا!
+Long time no see.|لم أرك منذ زمن|cap:👋~years later!|Hi, Sara! Long time no see.|أهلًا يا سارة! لم أرك منذ زمن.
+in the nick of time|في آخر لحظة|pair:🏃>🚪|We reached the gate in the nick of time.|وصلنا إلى البوابة في آخر لحظة.
+at the eleventh hour|في اللحظة الأخيرة|badge:[clock:11:00]/✍️|They signed the deal at the eleventh hour.|وقّعوا الصفقة في اللحظة الأخيرة.
+once in a blue moon|نادرًا جدًا|bluemoon|We only eat out once in a blue moon.|لا نأكل خارج البيت إلا نادرًا جدًا.
+around the clock|على مدار الساعة|badge:[clock:12:00]/🔄|The hospital staff work around the clock.|يعمل طاقم المستشفى على مدار الساعة.
+against the clock|في سباق مع الزمن|together:🏃+⏱️|We're working against the clock to finish.|نعمل في سباق مع الزمن لننتهي.
+behind schedule|متأخر عن الجدول|badge:🗓️/🐌|The project is two weeks behind schedule.|المشروع متأخر أسبوعين عن الجدول.
+ahead of schedule|قبل الموعد المحدد|badge:🗓️/🚀|We finished ahead of schedule.|انتهينا قبل الموعد المحدد.
+on schedule|في الموعد المقرر|badge:🗓️/✅|Everything is on schedule.|كل شيء يسير حسب الجدول.
+call it a day|ينهي العمل لليوم|pair:💻>🛌|It's late. Let's call it a day.|لقد تأخر الوقت. لنكتفِ بهذا اليوم.
+kill time|يقضي الوقت بلا هدف|badge:🎮/⏳|I read a magazine to kill time.|قرأت مجلة لتمضية الوقت.
+buy time|يكسب وقتًا|pair:🪙>⏳|He asked a question just to buy time.|طرح سؤالًا فقط ليكسب وقتًا.
+run out of time|ينفد وقته|cap:⌛~0:00|Hurry up. We're running out of time.|أسرع، وقتنا ينفد.
+make up for lost time|يعوّض ما فات|badge:📚/🔁|I'm studying hard to make up for lost time.|أذاكر بجد لأعوّض ما فاتني.
+take your time|خذ وقتك|🧘|There's no rush. Take your time.|لا داعي للعجلة. خذ وقتك.
+in no time|في وقت قصير جدًا|cap:⚡~0 sec|We'll be there in no time.|سنصل في وقت قصير جدًا.
+from time to time|من حين لآخر|tl:15,50,85~👋|I see him from time to time.|أراه من حين لآخر.
+all the time|طوال الوقت|cap:💬~24/7|She talks about her job all the time.|تتحدث عن عملها طوال الوقت.
+a matter of time|مسألة وقت|badge:⏳/❓|It's only a matter of time before he finds out.|إنها مسألة وقت قبل أن يكتشف الأمر.
+It's about time.|آن الأوان|badge:🙄/⏰|You're here! It's about time.|أنت هنا! آن الأوان.
+high time|حان الوقت تمامًا|badge:🔔/⏰|It's high time you found a job.|لقد حان الوقت لتجد عملًا.
+for the time being|في الوقت الحالي|cap:🛋️~for now|You can stay here for the time being.|يمكنك البقاء هنا في الوقت الحالي.
+in the long run|على المدى الطويل|tl:10-95~🏃|This will save money in the long run.|سيوفر هذا المال على المدى الطويل.
+sooner or later|عاجلًا أم آجلًا|together:🐇+🐢|Sooner or later, you'll have to decide.|عاجلًا أم آجلًا، ستضطر إلى اتخاذ القرار.
+the sooner the better|كلما كان أسرع كان أفضل|pair:📤>🎉|Send the file today. The sooner the better.|أرسل الملف اليوم. كلما كان أسرع كان أفضل.
+at the last minute|في آخر دقيقة|badge:[clock:11:59]/❌|He cancelled at the last minute.|ألغى في آخر دقيقة.
+up to the minute|أحدث ما يكون|📰|The site gives up-to-the-minute news.|يقدم الموقع آخر الأخبار لحظة بلحظة.
+pressed for time|ضيق الوقت|badge:😰/⏰|Sorry, I can't talk. I'm pressed for time.|آسف، لا أستطيع الكلام. وقتي ضيق.
+the early bird catches the worm|من بكّر ظفر|pair:🐦>🪱|Start early. The early bird catches the worm.|ابدأ مبكرًا. فمن بكّر ظفر.
+turn back the clock|يعيد الزمن إلى الوراء|badge:🕰️/⏪|I wish I could turn back the clock.|أتمنى لو أستطيع إعادة الزمن إلى الوراء.
+day in, day out|يومًا بعد يوم|rep:💼*3|He does the same work day in, day out.|يؤدي العمل نفسه يومًا بعد يوم.

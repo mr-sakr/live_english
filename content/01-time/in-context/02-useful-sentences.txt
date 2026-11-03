@@ -1,0 +1,29 @@
+## Asking about time — السؤال عن الوقت
+What's the date today?|ما تاريخ اليوم؟
+What day is it today?|ما هو اليوم؟
+How long does it take?|كم يستغرق ذلك؟
+How long have you been waiting?|منذ متى وأنت تنتظر؟
+When are you free?|متى تكون متفرغًا؟
+What time does the shop open?|متى يفتح المتجر؟
+How often do you go there?|كم مرة تذهب إلى هناك؟
+## Making plans — تحديد المواعيد
+Are you free on Thursday afternoon?|هل أنت متفرغ بعد ظهر الخميس؟
+What time works for you?|أي وقت يناسبك؟
+Does ten o'clock suit you?|هل تناسبك الساعة العاشرة؟
+Let's meet at seven.|لنلتقِ في السابعة.
+Can we move it to next week?|هل يمكننا نقله إلى الأسبوع القادم؟
+I'm afraid I can't make it on Monday.|أخشى أنني لا أستطيع الحضور يوم الاثنين.
+## Being late or in a hurry — التأخير والعجلة
+Sorry I'm late. The traffic was terrible.|آسف على تأخري، كان المرور فظيعًا.
+I'm running a bit late.|سأتأخر قليلًا.
+I'll be there in five minutes.|سأكون هناك خلال خمس دقائق.
+We don't have much time left.|لم يتبق لنا وقت كثير.
+I'm in a hurry.|أنا في عجلة من أمري.
+There's no rush.|لا داعي للعجلة.
+## Professional English — لغة العمل
+Could we schedule a call for tomorrow morning?|هل يمكننا تحديد موعد مكالمة صباح الغد؟
+I'll get back to you by the end of the day.|سأرد عليك قبل نهاية اليوم.
+We need to push back the deadline by a week.|علينا تأجيل الموعد النهائي أسبوعًا.
+The project is running on schedule.|يسير المشروع وفق الجدول.
+Please let me know as soon as possible.|من فضلك أخبرني في أقرب وقت ممكن.
+Thank you for your time.|شكرًا لك على وقتك.

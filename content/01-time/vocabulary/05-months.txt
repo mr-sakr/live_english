@@ -1,0 +1,12 @@
+January|/ˈdʒænjueri/|n|يناير|month:1|The new term starts in January.|يبدأ الفصل الدراسي الجديد في يناير.
+February|/ˈfebrueri/|n|فبراير|month:2|February is the shortest month.|فبراير أقصر الشهور.
+March|/mɑːrtʃ/|n|مارس|month:3|My birthday is in March.|عيد ميلادي في مارس.
+April|/ˈeɪprəl/|n|أبريل|month:4|The weather is lovely in April.|الطقس رائع في أبريل.
+May|/meɪ/|n|مايو|month:5|We got married in May.|تزوجنا في مايو.
+June|/dʒuːn/|n|يونيو|month:6|Exams finish in June.|تنتهي الامتحانات في يونيو.
+July|/dʒuˈlaɪ/|n|يوليو|month:7|July is usually very hot.|يوليو حار جدًا عادة.
+August|/ˈɔːɡəst/|n|أغسطس|month:8|We go to the beach every August.|نذهب إلى الشاطئ كل أغسطس.
+September|/sepˈtembər/|n|سبتمبر|month:9|Schools open again in September.|تفتح المدارس أبوابها مجددًا في سبتمبر.
+October|/ɑːkˈtoʊbər/|n|أكتوبر|month:10|The conference is in October.|المؤتمر في أكتوبر.
+November|/noʊˈvembər/|n|نوفمبر|month:11|It starts getting cold in November.|يبدأ الجو يبرد في نوفمبر.
+December|/dɪˈsembər/|n|ديسمبر|month:12|The company closes its accounts in December.|تُقفل الشركة حساباتها في ديسمبر.

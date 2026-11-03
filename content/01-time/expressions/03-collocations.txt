@@ -1,0 +1,24 @@
+spend time|يقضي وقتًا|together:👨‍👧+⏳|I love spending time with my kids.|أحب قضاء الوقت مع أطفالي.
+save time|يوفر الوقت|badge:💻/⏩|Online banking can save time.|يمكن للخدمات البنكية عبر الإنترنت أن توفر الوقت.
+waste time|يضيع الوقت|badge:📱/🗑️|Stop wasting time and start working.|توقف عن إضاعة الوقت وابدأ العمل.
+have time|لديه وقت|badge:☕/✅|Do you have time for a coffee?|هل لديك وقت لفنجان قهوة؟
+find time|يجد وقتًا|badge:⏰/🔎|I can't find time to read.|لا أجد وقتًا للقراءة.
+free time|وقت الفراغ|🎨|What do you do in your free time?|ماذا تفعل في وقت فراغك؟
+full-time|بدوام كامل|cap:💼~8 hours|She has a full-time job.|لديها وظيفة بدوام كامل.
+part-time|بدوام جزئي|cap:🧑‍🍳~4 hours|He works part-time at a café.|يعمل بدوام جزئي في مقهى.
+meet a deadline|يلتزم بموعد نهائي|badge:🎯/✅|We worked all night to meet the deadline.|عملنا طوال الليل للالتزام بالموعد النهائي.
+miss a deadline|يفوّت موعدًا نهائيًا|badge:🎯/❌|If you miss the deadline, you'll pay a fine.|إذا فوّت الموعد النهائي فستدفع غرامة.
+make an appointment|يحدد موعدًا|badge:📞/🗓️|I'd like to make an appointment for Tuesday.|أود تحديد موعد يوم الثلاثاء.
+cancel an appointment|يلغي موعدًا|badge:🗓️/🚫|I need to cancel my appointment.|أحتاج إلى إلغاء موعدي.
+set the alarm|يضبط المنبه|badge:⏰/⚙️|I set the alarm for 6:30.|ضبطت المنبه على 6:30.
+the alarm goes off|يرن المنبه|badge:⏰/🔊|My alarm goes off at six every day.|يرن منبهي في السادسة كل يوم.
+last night|الليلة الماضية|badge:🌙/⏪|I slept badly last night.|نمت نومًا سيئًا الليلة الماضية.
+next week|الأسبوع القادم|cap:🗓️~+7 days|I'm on holiday next week.|أنا في إجازة الأسبوع القادم.
+in two days|بعد يومين|cap:📦~+2 days|I'll get the results in two days.|سأحصل على النتائج بعد يومين.
+a long time ago|منذ زمن طويل|🦕|It happened a long time ago.|حدث ذلك منذ زمن طويل.
+the other day|منذ أيام قليلة|cap:👤~3 days ago|I saw your brother the other day.|رأيت أخاك منذ أيام قليلة.
+these days|هذه الأيام|tl:40-50~🏃|Everyone is so busy these days.|الجميع مشغولون جدًا هذه الأيام.
+in the meantime|في غضون ذلك|together:🪑+⏳|The doctor is coming. In the meantime, please sit down.|الطبيب قادم. في غضون ذلك، تفضل بالجلوس.
+on a daily basis|بشكل يومي|cap:📈~every day|We check the figures on a daily basis.|نراجع الأرقام بشكل يومي.
+a waste of time|مضيعة للوقت|badge:👥/🗑️|That meeting was a waste of time.|كان ذلك الاجتماع مضيعة للوقت.
+right away|على الفور|cap:✅~now!|I'll do it right away.|سأفعل ذلك على الفور.

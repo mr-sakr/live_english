@@ -1,0 +1,26 @@
+## Asking for the time | السؤال عن الوقت
+A|Excuse me, do you have the time?|عفوًا، هل تعرف كم الساعة؟
+B|Yes, it's quarter past four.|نعم، إنها الرابعة والربع.
+A|Oh no! My train leaves at half past.|يا إلهي! قطاري يغادر في النصف.
+B|Then you'd better hurry. The station is ten minutes from here.|إذن من الأفضل أن تسرع. المحطة على بعد عشر دقائق من هنا.
+A|Thanks a lot!|شكرًا جزيلًا!
+## Making an appointment | تحديد موعد
+A|Good morning. I'd like to make an appointment with Dr. Hassan.|صباح الخير. أود تحديد موعد مع الدكتور حسن.
+B|Certainly. Is next Tuesday at ten o'clock convenient?|بالتأكيد. هل يناسبك الثلاثاء القادم في العاشرة؟
+A|I'm afraid I work in the mornings. Do you have anything in the afternoon?|أخشى أنني أعمل صباحًا. هل لديكم موعد بعد الظهر؟
+B|How about Wednesday at quarter to five?|ما رأيك في الأربعاء، الخامسة إلا ربعًا؟
+A|That's perfect. Thank you.|هذا ممتاز. شكرًا لك.
+B|You're welcome. Please arrive ten minutes early.|عفوًا. من فضلك احضر قبل الموعد بعشر دقائق.
+## Running late | التأخر عن موعد
+A|Hi, Omar. Where are you? The meeting started ten minutes ago.|أهلًا يا عمر. أين أنت؟ بدأ الاجتماع منذ عشر دقائق.
+B|I'm so sorry. I overslept, and now I'm stuck in traffic.|آسف جدًا. غلبني النوم، وأنا الآن عالق في الازدحام.
+A|How long will it take you to get here?|كم ستستغرق حتى تصل؟
+B|About twenty minutes. Can you start without me?|نحو عشرين دقيقة. هل يمكنكم البدء من دوني؟
+A|Sure. But try to hurry. Your presentation is next.|بالتأكيد، لكن حاول الإسراع. عرضك هو التالي.
+## Negotiating a deadline | التفاوض على موعد نهائي
+A|Are we still on schedule for the launch?|هل ما زلنا ملتزمين بجدول الإطلاق؟
+B|Not exactly. We're about a week behind because of the supplier delay.|ليس تمامًا. نحن متأخرون نحو أسبوع بسبب تأخر المورّد.
+A|The client expects everything by the end of the month.|يتوقع العميل تسلم كل شيء بنهاية الشهر.
+B|Could we push the deadline back to the fifth?|هل يمكننا تأجيل الموعد النهائي إلى يوم الخامس؟
+A|I'll ask, but we should work overtime in the meantime.|سأسأل، لكن علينا العمل وقتًا إضافيًا في غضون ذلك.
+B|Agreed. I'll send you an updated timeline this afternoon.|موافق. سأرسل إليك جدولًا زمنيًا محدثًا بعد ظهر اليوم.

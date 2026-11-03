@@ -1,0 +1,9 @@
+Monday|/ˈmʌndeɪ/|n|الاثنين|day:1|The office opens again on Monday.|يفتح المكتب مجددًا يوم الاثنين.
+Tuesday|/ˈtuːzdeɪ/|n|الثلاثاء|day:2|I have a dentist appointment on Tuesday.|لدي موعد عند طبيب الأسنان يوم الثلاثاء.
+Wednesday|/ˈwenzdeɪ/|n|الأربعاء|day:3|The report is due on Wednesday.|موعد تسليم التقرير يوم الأربعاء.
+Thursday|/ˈθɜːrzdeɪ/|n|الخميس|day:4|We're having a meeting next Thursday.|لدينا اجتماع يوم الخميس القادم.
+Friday|/ˈfraɪdeɪ/|n|الجمعة|day:5|Many people visit their families on Friday.|يزور كثيرون عائلاتهم يوم الجمعة.
+Saturday|/ˈsætərdeɪ/|n|السبت|day:6|We go shopping every Saturday.|نذهب للتسوق كل سبت.
+Sunday|/ˈsʌndeɪ/|n|الأحد|day:7|The museum is closed on Sunday.|المتحف مغلق يوم الأحد.
+weekday|/ˈwiːkdeɪ/|n|يوم من أيام الأسبوع (العمل)|day:1-5|The trains are crowded on weekdays.|تزدحم القطارات في أيام العمل.
+weekend|/ˈwiːkend/|n|عطلة نهاية الأسبوع|day:6-7|What did you do last weekend?|ماذا فعلت في عطلة نهاية الأسبوع الماضية؟

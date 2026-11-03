@@ -1,0 +1,18 @@
+before|/bɪˈfɔːr/|prep|قبل|pair:!🧼>🍽️|Wash your hands before lunch.|اغسل يديك قبل الغداء.
+after|/ˈæftər/|prep|بعد|pair:👥>!🗣️|Let's talk after the meeting.|لنتحدث بعد الاجتماع.
+during|/ˈdʊrɪŋ/|prep|خلال / أثناء|badge:🎬/📵|Please turn off your phone during the film.|من فضلك أغلق هاتفك أثناء الفيلم.
+while|/waɪl/|conj|بينما|together:📞+🚗|She called while I was driving.|اتصلت بينما كنت أقود.
+when|/wen/|conj|عندما / متى|pair:🏠>📞|Call me when you get home.|اتصل بي عندما تصل إلى البيت.
+since|/sɪns/|prep|منذ (نقطة زمنية)|tl:20-50~🏢~2020 → now|I've worked here since 2020.|أعمل هنا منذ 2020.
+for|/fɔːr/|prep|لمدة|tl:25-75~🏡~5 years|I've lived here for five years.|أعيش هنا منذ خمس سنوات.
+until|/ənˈtɪl/|prep|حتى|cap:🏬~open → 9:00|The shop is open until nine.|يفتح المتجر حتى التاسعة.
+by|/baɪ/|prep|في موعد لا يتجاوز|cap:📤~→ Friday|Please send it by Friday.|من فضلك أرسله في موعد أقصاه الجمعة.
+from|/frʌm/|prep|من (بداية)|cap:💻~9:00 →|I work from nine to five.|أعمل من التاسعة إلى الخامسة.
+as soon as|/əz ˈsuːn əz/|conj|بمجرد أن|pair:🛬>📱|I'll call you as soon as I arrive.|سأتصل بك بمجرد وصولي.
+meanwhile|/ˈmiːnwaɪl/|adv|في غضون ذلك|together:🍳+🍴|Dinner is nearly ready. Meanwhile, set the table.|العشاء شبه جاهز. في غضون ذلك، جهّز المائدة.
+afterwards|/ˈæftərwərdz/|adv|بعد ذلك|pair:🍝>!🚶|We had dinner and went for a walk afterwards.|تناولنا العشاء وذهبنا للتمشية بعد ذلك.
+beforehand|/bɪˈfɔːrhænd/|adv|مسبقًا|pair:!📢>📌|Let me know beforehand if you can't come.|أخبرني مسبقًا إن لم تستطع الحضور.
+finally|/ˈfaɪnəli/|adv|أخيرًا|badge:🚌/🎉|The bus finally arrived.|وصلت الحافلة أخيرًا.
+first|/fɜːrst/|adv|أولًا|🥇|First, read the instructions.|أولًا، اقرأ التعليمات.
+next|/nekst/|adv|تاليًا|⏭️|What should we do next?|ماذا نفعل بعد ذلك؟
+at the same time|/ət ðə ˌseɪm ˈtaɪm/|phr|في الوقت نفسه|together:🗣️+🗣️|They both spoke at the same time.|تكلم كلاهما في الوقت نفسه.

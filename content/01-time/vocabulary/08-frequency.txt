@@ -1,0 +1,20 @@
+always|/ˈɔːlweɪz/|adv|دائمًا|freq:10:🎯|She always arrives on time.|تصل دائمًا في الموعد.
+usually|/ˈjuːʒuəli/|adv|عادةً|freq:8:🚶|I usually walk to work.|أذهب إلى العمل مشيًا عادةً.
+normally|/ˈnɔːrməli/|adv|في العادة|freq:8:🛒|The shop normally opens at nine.|يفتح المتجر في العادة الساعة التاسعة.
+frequently|/ˈfriːkwəntli/|adv|بشكل متكرر|freq:7:✈️|He travels frequently for work.|يسافر كثيرًا بسبب عمله.
+often|/ˈɔːfən/|adv|غالبًا / كثيرًا|freq:6:🍽️|We often eat out on Fridays.|نأكل خارج البيت كثيرًا أيام الجمعة.
+sometimes|/ˈsʌmtaɪmz/|adv|أحيانًا|freq:4:🔑|I sometimes forget my keys.|أنسى مفاتيحي أحيانًا.
+occasionally|/əˈkeɪʒənəli/|adv|بين الحين والآخر|freq:3:🎬|We occasionally go to the cinema.|نذهب إلى السينما بين الحين والآخر.
+seldom|/ˈseldəm/|adv|قلّما|freq:2:💬|He seldom talks about his family.|قلّما يتحدث عن عائلته.
+rarely|/ˈrerli/|adv|نادرًا|freq:1:📺|I rarely watch TV.|نادرًا ما أشاهد التلفاز.
+hardly ever|/ˌhɑːrdli ˈevər/|adv|نادرًا جدًا|freq:1:🏝️|She hardly ever takes a day off.|نادرًا جدًا ما تأخذ يوم إجازة.
+never|/ˈnevər/|adv|أبدًا|freq:0:☕|I never drink coffee at night.|لا أشرب القهوة ليلًا أبدًا.
+ever|/ˈevər/|adv|في أي وقت (سؤال)|badge:🎡/❓|Have you ever been to London?|هل زرت لندن من قبل؟
+daily|/ˈdeɪli/|adv|يوميًا|cap:🗞️~every day|The newspaper is published daily.|تصدر الصحيفة يوميًا.
+weekly|/ˈwiːkli/|adv|أسبوعيًا|cap:📝~every week|We meet weekly to review progress.|نجتمع أسبوعيًا لمراجعة التقدم.
+monthly|/ˈmʌnθli/|adv|شهريًا|cap:🧾~every month|I pay the bill monthly.|أدفع الفاتورة شهريًا.
+yearly|/ˈjɪrli/|adv|سنويًا|cap:💳~every year|The fee is paid yearly.|تُدفع الرسوم سنويًا.
+annually|/ˈænjuəli/|adv|سنويًا (رسمية)|cap:📊~once a year|The report is published annually.|يصدر التقرير سنويًا.
+twice|/twaɪs/|adv|مرتين|rep:💊*2|Take this medicine twice a day.|تناول هذا الدواء مرتين في اليوم.
+regularly|/ˈreɡjələrli/|adv|بانتظام|rep:🏋️*3|You should exercise regularly.|ينبغي أن تمارس الرياضة بانتظام.
+constantly|/ˈkɑːnstəntli/|adv|باستمرار|📳|The phone is constantly ringing.|يرن الهاتف باستمرار.
