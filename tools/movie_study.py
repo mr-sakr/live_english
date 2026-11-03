@@ -188,6 +188,7 @@ def scene_page(film_dir, film, scene, cues):
 <div class="scene-media">
 <video src="{media}/movie.mp4#t={start:.2f}" preload="metadata" playsinline></video>
 {bar}
+<label class="script-toggle"><input type="checkbox" class="skip-silence" checked> تخطي الأجزاء اللي مفيهاش كلام</label>
 <label class="script-toggle"><input type="checkbox" class="hide-script"> إخفاء السكريبت لاختبار السمع</label>
 </div>
 <ol class="bubbles scene-script timed-text">{script_html(scene, lines)}</ol>
