@@ -278,6 +278,8 @@ mark { padding: 0 2px; border-radius: 3px; background: var(--mark); color: inher
 .scene-script .bubble { width: 100%; }
 .scene-script .bubble.n { background: var(--tile); font-style: italic; }
 .speaker { color: var(--muted); font-size: 12px; font-weight: 700; direction: ltr; }
+.translation-hidden .tr { display: none; }
+.scene-script .tr { margin-top: 3px; font-size: 15px; font-style: normal; }
 .script-hidden .en { filter: blur(6px); }
 .script-hidden .en:hover { filter: none; }
 .line-repeat { flex: none; width: 30px; height: 30px; padding: 0; border: 1px solid var(--line); border-radius: 50%; background: var(--tile); color: var(--ink); font-size: 16px; cursor: pointer; }

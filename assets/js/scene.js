@@ -263,6 +263,22 @@
     script.classList.toggle('script-hidden', event.target.checked);
   });
 
+  // The translation choice is remembered from scene to scene.
+  var translationBox = grid.querySelector('.show-translation');
+  try {
+    translationBox.checked = localStorage.getItem('live-english-translation') !== 'off';
+  } catch (error) { /* Keeps the default. */ }
+  function showTranslation() {
+    script.classList.toggle('translation-hidden', !translationBox.checked);
+  }
+  translationBox.addEventListener('change', function () {
+    showTranslation();
+    try {
+      localStorage.setItem('live-english-translation', translationBox.checked ? 'on' : 'off');
+    } catch (error) { /* It just won't be remembered. */ }
+  });
+  showTranslation();
+
   document.addEventListener('tabchange', function () { video.pause(); });
 
   buildSegments();

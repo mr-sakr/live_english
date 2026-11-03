@@ -41,12 +41,15 @@ def seconds(hours, minutes, secs, millis):
     return int(hours) * 3600 + int(minutes) * 60 + int(secs) + int(millis) / 1000
 
 
-def split_parts(lines):
+def split_parts(lines, translation=False):
     """A cue with dashes holds several speakers, one per dash; otherwise it is one speaker."""
     lines = [re.sub(r"</?[a-z][^>]*>", "", line, flags=re.I).strip() for line in lines]
-    # Some files mix in Arabic lines: keep only the English before them.
-    lines = [line[:match.start()].strip() if (match := ARABIC.search(line)) else line for line in lines]
-    lines = [line for line in lines if re.search("[A-Za-z0-9]", line)]
+    if translation:
+        lines = [line for line in lines if line]
+    else:
+        # Some files mix in Arabic lines: keep only the English before them.
+        lines = [line[:match.start()].strip() if (match := ARABIC.search(line)) else line for line in lines]
+        lines = [line for line in lines if re.search("[A-Za-z0-9]", line)]
     if not lines:
         return []
     if not any(line.startswith("-") for line in lines):
@@ -75,6 +78,38 @@ def read_cues(path):
             groups = match.groups()
             cues[int(lines[0].strip())] = {"start": seconds(*groups[:4]), "end": seconds(*groups[4:]), "parts": parts}
     return cues
+
+
+def read_translation(path):
+    """The translation's lines in time order; its numbering need not match the English file."""
+    lines = []
+    text = path.read_text(encoding="utf-8-sig").replace("\r\n", "\n")
+    for block in re.split(r"\n\s*\n", text.strip()):
+        rows = block.split("\n")
+        match = TIME.match(rows[1]) if len(rows) > 1 else None
+        if match:
+            groups = match.groups()
+            lines.append({"start": seconds(*groups[:4]), "end": seconds(*groups[4:]),
+                          "parts": split_parts(rows[2:], translation=True), "used": False})
+    return lines
+
+
+def attach_translation(cues, translation):
+    """Gives each English part its translation, matching subtitles by when they appear on screen."""
+    for cue in cues.values():
+        cue["translated"] = [""] * len(cue["parts"])
+        matches = [line for line in translation
+                   if min(cue["end"], line["end"]) - max(cue["start"], line["start"]) > 0.5 * min(cue["end"] - cue["start"], line["end"] - line["start"])]
+        for line in matches:
+            line["used"] = True
+        if len(matches) == 1 and len(matches[0]["parts"]) == len(cue["parts"]):
+            cue["translated"] = matches[0]["parts"]
+        elif matches:
+            # The two files split this line differently: keep it all together under its first part.
+            cue["translated"][0] = " ".join(part for line in matches for part in line["parts"])
+    missing = sum(1 for cue in cues.values() if not any(cue["translated"]))
+    unused = sum(1 for line in translation if not line["used"])
+    print(f"translation: {len(translation)} lines; {missing} English subtitles without one; {unused} translated lines unused")
 
 
 def read_scenes(folder):
@@ -152,11 +187,12 @@ def scene_lines(scene, cues):
             speakers = speakers * len(cue["parts"])
         total = sum(len(part) for part in cue["parts"]) or 1
         used = 0
-        for part, who in zip(cue["parts"], speakers):
+        translated = cue.get("translated", [""] * len(cue["parts"]))
+        for part, who, arabic in zip(cue["parts"], speakers, translated):
             start = cue["start"] + (cue["end"] - cue["start"]) * used / total
             used += len(part)
             end = cue["start"] + (cue["end"] - cue["start"]) * used / total
-            lines.append({"text": part, "start": start, "end": end, "who": who})
+            lines.append({"text": part, "start": start, "end": end, "who": who, "arabic": arabic})
     return lines
 
 
@@ -164,9 +200,10 @@ def script_html(scene, lines):
     html = ""
     for line in lines:
         name = escape(scene["names"][line["who"]])
+        arabic = f"<p class='tr'>{escape(line['arabic'])}</p>" if line["arabic"] else ""
         html += (f"<li class='bubble {line['who'].lower()}' data-start='{line['start']:.2f}' data-end='{line['end']:.2f}'>"
                  "<button type='button' class='line-repeat' aria-pressed='false' aria-label='كرر هذه الجملة' title='كرر هذه الجملة'>↻</button>"
-                 f"<div><p class='speaker'>{name}</p><p lang='en' dir='ltr' class='en'>{timed_words(line['text'], line['start'], line['end'])}</p></div></li>")
+                 f"<div><p class='speaker'>{name}</p><p lang='en' dir='ltr' class='en'>{timed_words(line['text'], line['start'], line['end'])}</p>{arabic}</div></li>")
     return html
 
 
@@ -189,6 +226,7 @@ def scene_page(film_dir, film, scene, cues):
 <video src="{media}/movie.mp4#t={start:.2f}" preload="metadata" playsinline></video>
 {bar}
 <label class="script-toggle"><input type="checkbox" class="skip-silence" checked> تخطي الأجزاء اللي مفيهاش كلام</label>
+<label class="script-toggle"><input type="checkbox" class="show-translation" checked> إظهار الترجمة بالعربي المصري</label>
 <label class="script-toggle"><input type="checkbox" class="hide-script"> إخفاء السكريبت لاختبار السمع</label>
 </div>
 <ol class="bubbles scene-script timed-text">{script_html(scene, lines)}</ol>
@@ -265,6 +303,8 @@ def main():
             continue
         film = json.loads((folder / "film.json").read_text(encoding="utf-8"))
         cues = read_cues(folder / "movie.srt")
+        if (folder / "movie.ar.srt").exists():
+            attach_translation(cues, read_translation(folder / "movie.ar.srt"))
         film["scenes"] = read_scenes(folder)
         check_scenes(film["scenes"], cues)
         make_media(folder, film)
