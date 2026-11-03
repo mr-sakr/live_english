@@ -270,6 +270,24 @@ mark { padding: 0 2px; border-radius: 3px; background: var(--mark); color: inher
 .quiz-missed ul { margin: 0 0 16px; padding-inline-start: 20px; }
 .quiz-actions { display: flex; flex-wrap: wrap; gap: 10px; }
 
+/* Film scenes */
+.scene-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); align-items: start; gap: 18px; }
+.scene-media { position: sticky; top: 8px; display: flex; flex-direction: column; gap: 10px; }
+.scene-media video { display: block; width: 100%; border-radius: 12px; background: #000; cursor: pointer; }
+.script-toggle { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 14px; cursor: pointer; }
+.scene-script .bubble { width: 100%; }
+.scene-script .bubble.n { background: var(--tile); font-style: italic; }
+.speaker { color: var(--muted); font-size: 12px; font-weight: 700; direction: ltr; }
+.script-hidden .en { filter: blur(6px); }
+.script-hidden .en:hover { filter: none; }
+.line-repeat { flex: none; width: 30px; height: 30px; padding: 0; border: 1px solid var(--line); border-radius: 50%; background: var(--tile); color: var(--ink); font-size: 16px; cursor: pointer; }
+.line-repeat:hover { border-color: var(--accent); }
+.line-repeat[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+
+@media (max-width: 860px) {
+  .scene-grid { grid-template-columns: minmax(0, 1fr); }
+}
+
 /* Audio lessons */
 .lessons { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
 .lesson { padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }

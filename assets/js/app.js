@@ -78,7 +78,7 @@
 
   function openTab() {
     var name = location.hash.slice(1);
-    if (!document.querySelector('[data-tab="' + name + '"]')) name = 'words';
+    if (!document.querySelector('[data-tab="' + name + '"]')) name = tabs[0].dataset.tab;
     stop();
     tabs.forEach(function (tab) {
       tab.setAttribute('aria-selected', tab.dataset.tab === name ? 'true' : 'false');

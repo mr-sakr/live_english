@@ -1,3 +1,6 @@
+# Film files, scripts and their study pages stay on this computer only
+movies/
+
 # Rebuilt automatically by tools/build.py and tools/audio_lessons.py
 tools/lesson-clips/
 tools/emoji-cache/

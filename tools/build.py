@@ -488,7 +488,7 @@ def clock_text(seconds):
     return f"{int(seconds // 60)}:{int(seconds % 60):02d}"
 
 
-def player_bar(audio_src, duration, playlist=False):
+def player_bar(audio_src, duration, playlist=False, media_element=True):
     speeds = "".join(
         f"<button type='button' data-speed='{speed}' aria-pressed='{'true' if speed == '1' else 'false'}'>{speed}x</button>"
         for speed in ("0.5", "1", "1.5", "2"))
@@ -500,8 +500,9 @@ def player_bar(audio_src, duration, playlist=False):
         next_button = '<button type="button" class="p-next" aria-label="الملف التالي" title="الملف التالي"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 5h2v14h-2zM4 5v14l11-7z"/></svg></button>'
         repeat_button = ('<button type="button" class="p-shuffle" aria-pressed="false" aria-label="تشغيل عشوائي" title="تشغيل عشوائي"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 4l4 3.5-4 3.5V9h-2.2L7.5 18H3v-2h3.5l7.3-9H17zM3 6h4.5l2.6 3.2-1.3 1.6L6.5 8H3zm11.1 8.8l.7.9H17v-2l4 3.5-4 3.5v-2h-3.2l-1-1.3z"/></svg></button>'
                          '<button type="button" class="p-repeat" data-mode="off" aria-label="التكرار: بدون" title="التكرار: بدون"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 2l4 4-4 4V7H7v4H5V5h12zM7 22l-4-4 4-4v3h10v-4h2v6H7z"/></svg><span class="p-repeat-one">1</span></button>')
+    element = f'<audio{source} preload="none"></audio>' if media_element else ""
     return f"""<div class="player" dir="ltr">
-<audio{source} preload="none"></audio>
+{element}
 <div class="player-buttons">
 {previous_button}<button type="button" class="p-back" aria-label="رجوع 5 ثوان" title="رجوع 5 ثوان">« 5</button>
 <button type="button" class="p-play" aria-label="تشغيل أو إيقاف مؤقت" title="تشغيل / إيقاف مؤقت"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button>
@@ -711,12 +712,16 @@ def build_home(topics):
     audio_links = "".join(f"<a href='topics/{topic['id']}/audio/index.html'>🎧 الدروس الصوتية: {escape(topic['ar'])}</a> · "
                           for topic, _ in topics)
     percent = len(words) * 100 / WORD_GOAL
+    # Films stay on this computer: movies/films.js fills this in, and doesn't exist on GitHub.
+    movies_block = ("<section class='block' id='films' hidden><h2>الأفلام</h2><div class='tiles'></div></section>"
+                    "<script src='movies/films.js'></script>")
     body = f"""<div class="page-title"><h1>رحلتك نحو احتراف الإنجليزية</h1></div>
 <section class="goal">
 <div class="goal-num"><strong>{len(words)}</strong> من {WORD_GOAL} كلمة أضيفت إلى البرنامج حتى الآن</div>
 <div class="bar"><span style="width:{percent:.1f}%"></span></div>
 </section>
 <section class="block"><h2>المواضيع</h2><div class="tiles">{cards}</div></section>
+{movies_block}
 <p class="foot">{audio_links}<a href="credits.html">مصادر الصور والأصوات</a></p>"""
     write_page("", page("", "Live English", [], body))
 
