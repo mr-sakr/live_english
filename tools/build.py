@@ -33,6 +33,8 @@ VOICES = {"us": "en-US-AriaNeural", "uk": "en-GB-SoniaNeural",
           "a": "en-US-JennyNeural", "b": "en-US-GuyNeural"}
 MP3_BYTES_PER_SECOND = 6000
 CONVERSATION_LINE_PAUSE = 0.5
+WORD_TRACK_GAP = 0.6
+WORD_TRACK_PAUSE = 1.2
 POS = {"n": "اسم", "v": "فعل", "adj": "صفة", "adv": "ظرف", "prep": "حرف جر", "conj": "أداة ربط", "phr": "عبارة"}
 PLANNED = ["الجسم", "الصحة", "البنوك والمال", "العمل", "السفر", "الطعام", "البيت", "العائلة"]
 
@@ -243,6 +245,11 @@ def conversation_rel(lines):
     return f"media/audio/conversations/{hashed_slug(joined)}.mp3"
 
 
+def word_track_rel(items):
+    joined = "\n".join(f"{item['text']}|{item['ex']}" for item in items)
+    return f"media/audio/wordtracks/{hashed_slug(joined)}.mp3"
+
+
 def all_conversations(topic):
     conversations = []
     for section in all_sections(topic):
@@ -326,6 +333,32 @@ async def save_conversation(limit, lines, target):
             return f"{lines[0]['en']}: {error}"
 
 
+async def save_word_track(limit, items, target):
+    """Every word on a page and its example in one file, with when each word starts."""
+    async with limit:
+        try:
+            frames, timeline = [], []
+
+            def place(words):
+                offset = len(frames) * FRAME_SECONDS
+                return [{"text": w["text"], "start": round(w["start"] + offset, 3), "end": round(w["end"] + offset, 3)} for w in words]
+
+            for item in items:
+                word_frames, word_times = await speak_frames(item["text"], VOICES["us"])
+                entry = {"word": place(word_times)}
+                frames += word_frames + silence(WORD_TRACK_GAP)
+                example_frames, example_times = await speak_frames(item["ex"], VOICES["sentences"])
+                entry["ex"] = place(example_times)
+                frames += example_frames + silence(WORD_TRACK_PAUSE)
+                timeline.append(entry)
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(b"".join(frames))
+            target.with_suffix(".json").write_text(json.dumps(timeline, ensure_ascii=False), encoding="utf-8")
+            return None
+        except Exception as error:
+            return f"{items[0]['text']}: {error}"
+
+
 async def build_audio(topic):
     base = TOPICS_OUT / topic["id"]
     limit = asyncio.Semaphore(6)
@@ -336,6 +369,11 @@ async def build_audio(topic):
         if not target.exists():
             target.parent.mkdir(parents=True, exist_ok=True)
             tasks.append(speak(limit, voice, text, target))
+    for section in all_sections(topic):
+        if section["type"] in ("words", "expressions"):
+            target = base / word_track_rel(section["data"])
+            if not target.exists():
+                tasks.append(save_word_track(limit, section["data"], target))
     conversations = all_conversations(topic)
     for lines in conversations:
         target = base / conversation_rel(lines)
@@ -376,7 +414,7 @@ def locate_words(text, timings):
     for word in timings:
         start = text.find(word["text"], cursor)
         if start < 0:
-            raise ValueError(f"Spoken word not found in paragraph: {word['text']}")
+            continue  # Spoken differently from how it is written, such as a number: left unhighlighted.
         cursor = start + len(word["text"])
         spans.append((start, cursor, word["start"]))
     return spans
@@ -448,7 +486,7 @@ def page(page_dir, title, crumbs, body, scripts=()):
 """
 
 
-def word_card(item, media):
+def word_card(item, media, timings=None):
     us = speaker(f"{media}/{audio_rel('us', item['text'])}", f"انطق: {item['text']} (أمريكي)", "big")
     uk = speaker(f"{media}/{audio_rel('uk', item['text'])}", f"انطق: {item['text']} (بريطاني)", "small", "UK")
     ex = speaker(f"{media}/{audio_rel('sentences', item['ex'])}", "استمع إلى الجملة", "small")
@@ -457,10 +495,10 @@ def word_card(item, media):
     return f"""<article class="card">
 <img src="{media}/media/images/{image_name(item['img'])}" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head">{us}{ltr(item['text'], 'h2')}{uk}</div>
+<div class="head">{us}<h2 lang="en" dir="ltr">{timed_paragraph(item['text'], timings['word'], ()) if timings else escape(item['text'])}</h2>{uk}</div>
 <div class="meta">{ipa}{pos}</div>
 <p class="meaning">{escape(item['ar'])}</p>
-<div class="example">{ex}<div>{ltr(item['ex'], 'p')}<p class="tr">{escape(item['ex_ar'])}</p></div></div>
+<div class="example">{ex}<div><p lang="en" dir="ltr">{timed_paragraph(item['ex'], timings['ex'], ()) if timings else escape(item['ex'])}</p><p class="tr">{escape(item['ex_ar'])}</p></div></div>
 </div>
 </article>"""
 
@@ -540,7 +578,11 @@ def tab_bar():
 def section_body(section, media, topic_dir):
     kind, data = section["type"], section["data"]
     if kind in ("words", "expressions"):
-        return "<div class='cards'>" + "".join(word_card(item, media) for item in data) + "</div>"
+        track = word_track_rel(data)
+        timeline = json.loads((ROOT / topic_dir / track).with_suffix(".json").read_text(encoding="utf-8"))
+        cards = "".join(word_card(item, media, timings) for item, timings in zip(data, timeline))
+        bar = player_bar(f"{media}/{track}", timeline[-1]["ex"][-1]["end"])
+        return f"<div class='timed word-track'>{bar}<div class='cards timed-text'>{cards}</div></div>"
     if kind == "sentences":
         html = ""
         for group in data:

@@ -13,79 +13,90 @@
 <div class='tabs' role='tablist'><button type='button' role='tab' data-tab='words'>الكلمات</button><button type='button' role='tab' data-tab='quiz'>الاختبار</button><button type='button' role='tab' data-tab='conversation'>المحادثة</button><button type='button' role='tab' data-tab='paragraph'>الفقرة</button></div>
 <section class="panel" data-panel="words">
 <p class="hint">مرّر الماوس على السماعة أو اضغط عليها لتسمع النطق. السماعة الكبيرة نطق أمريكي (وهو المكتوب بالرموز)، وزر UK نطق بريطاني.</p>
-<div class='cards'><article class="card">
+<div class='timed word-track'><div class="player" dir="ltr">
+<audio src="../../media/audio/wordtracks/monday-the-office-opens-again-on-monday-c61590aa.mp3" preload="none"></audio>
+<div class="player-buttons">
+<button type="button" class="p-back" aria-label="رجوع 5 ثوان" title="رجوع 5 ثوان">« 5</button>
+<button type="button" class="p-play" aria-label="تشغيل أو إيقاف مؤقت" title="تشغيل / إيقاف مؤقت"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button>
+<button type="button" class="p-forward" aria-label="تقديم 5 ثوان" title="تقديم 5 ثوان">5 »</button>
+<button type="button" class="p-stop" aria-label="إيقاف" title="إيقاف"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h12v12H6z"/></svg></button>
+<button type="button" class="p-loop" aria-pressed="false" aria-label="تكرار دائم" title="تكرار دائم"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 2l4 4-4 4V7H7v4H5V5h12zM7 22l-4-4 4-4v3h10v-4h2v6H7z"/></svg></button>
+</div>
+<div class="player-seek"><span class="p-time">0:00</span><input class="p-seek" type="range" min="0" max="44.514" step="0.05" value="0" aria-label="موضع الصوت"><span class="p-total">0:44</span></div>
+<div class="player-speeds" role="group" aria-label="سرعة الصوت"><button type='button' data-speed='0.5' aria-pressed='false'>0.5x</button><button type='button' data-speed='1' aria-pressed='true'>1x</button><button type='button' data-speed='1.5' aria-pressed='false'>1.5x</button><button type='button' data-speed='2' aria-pressed='false'>2x</button></div>
+</div><div class='cards timed-text'><article class="card">
 <img src="../../media/images/day-1-065d3b6a.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/monday.mp3' aria-label='انطق: Monday (أمريكي)' title='انطق: Monday (أمريكي)'></button><h2 lang='en' dir='ltr'>Monday</h2><button type='button' class='spk small' data-src='../../media/audio/uk/monday.mp3' aria-label='انطق: Monday (بريطاني)' title='انطق: Monday (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/monday.mp3' aria-label='انطق: Monday (أمريكي)' title='انطق: Monday (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='0.1'>Monday</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/monday.mp3' aria-label='انطق: Monday (بريطاني)' title='انطق: Monday (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/ˈmʌndeɪ/</span><span class='pos'>اسم</span></div>
 <p class="meaning">الاثنين</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/the-office-opens-again-on-monday-950d8096.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>The office opens again on Monday.</p><p class="tr">يفتح المكتب مجددًا يوم الاثنين.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/the-office-opens-again-on-monday-950d8096.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='1.756'>The</span> <span class='pw' data-t='1.919'>office</span> <span class='pw' data-t='2.344'>opens</span> <span class='pw' data-t='2.719'>again</span> <span class='pw' data-t='3.069'>on</span> <span class='pw' data-t='3.206'>Monday</span>.</p><p class="tr">يفتح المكتب مجددًا يوم الاثنين.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/day-2-9f546ad0.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/tuesday.mp3' aria-label='انطق: Tuesday (أمريكي)' title='انطق: Tuesday (أمريكي)'></button><h2 lang='en' dir='ltr'>Tuesday</h2><button type='button' class='spk small' data-src='../../media/audio/uk/tuesday.mp3' aria-label='انطق: Tuesday (بريطاني)' title='انطق: Tuesday (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/tuesday.mp3' aria-label='انطق: Tuesday (أمريكي)' title='انطق: Tuesday (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='5.236'>Tuesday</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/tuesday.mp3' aria-label='انطق: Tuesday (بريطاني)' title='انطق: Tuesday (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/ˈtuːzdeɪ/</span><span class='pos'>اسم</span></div>
 <p class="meaning">الثلاثاء</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/i-have-a-dentist-appointment-on-tuesday-90beb250.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>I have a dentist appointment on Tuesday.</p><p class="tr">لدي موعد عند طبيب الأسنان يوم الثلاثاء.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/i-have-a-dentist-appointment-on-tuesday-90beb250.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='6.868'>I</span> <span class='pw' data-t='7.043'>have</span> <span class='pw' data-t='7.231'>a</span> <span class='pw' data-t='7.33'>dentist</span> <span class='pw' data-t='7.731'>appointment</span> <span class='pw' data-t='8.243'>on</span> <span class='pw' data-t='8.418'>Tuesday</span>.</p><p class="tr">لدي موعد عند طبيب الأسنان يوم الثلاثاء.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/day-3-e8535a46.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/wednesday.mp3' aria-label='انطق: Wednesday (أمريكي)' title='انطق: Wednesday (أمريكي)'></button><h2 lang='en' dir='ltr'>Wednesday</h2><button type='button' class='spk small' data-src='../../media/audio/uk/wednesday.mp3' aria-label='انطق: Wednesday (بريطاني)' title='انطق: Wednesday (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/wednesday.mp3' aria-label='انطق: Wednesday (أمريكي)' title='انطق: Wednesday (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='10.564'>Wednesday</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/wednesday.mp3' aria-label='انطق: Wednesday (بريطاني)' title='انطق: Wednesday (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/ˈwenzdeɪ/</span><span class='pos'>اسم</span></div>
 <p class="meaning">الأربعاء</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/the-report-is-due-on-wednesday-b5078db9.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>The report is due on Wednesday.</p><p class="tr">موعد تسليم التقرير يوم الأربعاء.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/the-report-is-due-on-wednesday-b5078db9.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='12.268'>The</span> <span class='pw' data-t='12.443'>report</span> <span class='pw' data-t='12.856'>is</span> <span class='pw' data-t='12.981'>due</span> <span class='pw' data-t='13.181'>on</span> <span class='pw' data-t='13.343'>Wednesday</span>.</p><p class="tr">موعد تسليم التقرير يوم الأربعاء.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/day-4-7637cfe5.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/thursday.mp3' aria-label='انطق: Thursday (أمريكي)' title='انطق: Thursday (أمريكي)'></button><h2 lang='en' dir='ltr'>Thursday</h2><button type='button' class='spk small' data-src='../../media/audio/uk/thursday.mp3' aria-label='انطق: Thursday (بريطاني)' title='انطق: Thursday (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/thursday.mp3' aria-label='انطق: Thursday (أمريكي)' title='انطق: Thursday (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='15.46'>Thursday</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/thursday.mp3' aria-label='انطق: Thursday (بريطاني)' title='انطق: Thursday (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/ˈθɜːrzdeɪ/</span><span class='pos'>اسم</span></div>
 <p class="meaning">الخميس</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/we-re-having-a-meeting-next-thursday-cf0fb687.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>We&#x27;re having a meeting next Thursday.</p><p class="tr">لدينا اجتماع يوم الخميس القادم.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/we-re-having-a-meeting-next-thursday-cf0fb687.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='17.116'>We&#x27;re</span> <span class='pw' data-t='17.304'>having</span> <span class='pw' data-t='17.641'>a</span> <span class='pw' data-t='17.704'>meeting</span> <span class='pw' data-t='18.054'>next</span> <span class='pw' data-t='18.391'>Thursday</span>.</p><p class="tr">لدينا اجتماع يوم الخميس القادم.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/day-5-0130ff73.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/friday.mp3' aria-label='انطق: Friday (أمريكي)' title='انطق: Friday (أمريكي)'></button><h2 lang='en' dir='ltr'>Friday</h2><button type='button' class='spk small' data-src='../../media/audio/uk/friday.mp3' aria-label='انطق: Friday (بريطاني)' title='انطق: Friday (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/friday.mp3' aria-label='انطق: Friday (أمريكي)' title='انطق: Friday (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='20.548'>Friday</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/friday.mp3' aria-label='انطق: Friday (بريطاني)' title='انطق: Friday (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/ˈfraɪdeɪ/</span><span class='pos'>اسم</span></div>
 <p class="meaning">الجمعة</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/many-people-visit-their-families-on-frid-90b2f1ad.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>Many people visit their families on Friday.</p><p class="tr">يزور كثيرون عائلاتهم يوم الجمعة.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/many-people-visit-their-families-on-frid-90b2f1ad.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='22.156'>Many</span> <span class='pw' data-t='22.506'>people</span> <span class='pw' data-t='22.893'>visit</span> <span class='pw' data-t='23.206'>their</span> <span class='pw' data-t='23.369'>families</span> <span class='pw' data-t='23.844'>on</span> <span class='pw' data-t='23.994'>Friday</span>.</p><p class="tr">يزور كثيرون عائلاتهم يوم الجمعة.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/day-6-9839aec9.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/saturday.mp3' aria-label='انطق: Saturday (أمريكي)' title='انطق: Saturday (أمريكي)'></button><h2 lang='en' dir='ltr'>Saturday</h2><button type='button' class='spk small' data-src='../../media/audio/uk/saturday.mp3' aria-label='انطق: Saturday (بريطاني)' title='انطق: Saturday (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/saturday.mp3' aria-label='انطق: Saturday (أمريكي)' title='انطق: Saturday (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='26.044'>Saturday</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/saturday.mp3' aria-label='انطق: Saturday (بريطاني)' title='انطق: Saturday (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/ˈsætərdeɪ/</span><span class='pos'>اسم</span></div>
 <p class="meaning">السبت</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/we-go-shopping-every-saturday-71a18054.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>We go shopping every Saturday.</p><p class="tr">نذهب للتسوق كل سبت.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/we-go-shopping-every-saturday-71a18054.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='27.796'>We</span> <span class='pw' data-t='27.996'>go</span> <span class='pw' data-t='28.146'>shopping</span> <span class='pw' data-t='28.721'>every</span> <span class='pw' data-t='28.971'>Saturday</span>.</p><p class="tr">نذهب للتسوق كل سبت.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/day-7-ef3e9e5f.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/sunday.mp3' aria-label='انطق: Sunday (أمريكي)' title='انطق: Sunday (أمريكي)'></button><h2 lang='en' dir='ltr'>Sunday</h2><button type='button' class='spk small' data-src='../../media/audio/uk/sunday.mp3' aria-label='انطق: Sunday (بريطاني)' title='انطق: Sunday (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/sunday.mp3' aria-label='انطق: Sunday (أمريكي)' title='انطق: Sunday (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='31.132'>Sunday</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/sunday.mp3' aria-label='انطق: Sunday (بريطاني)' title='انطق: Sunday (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/ˈsʌndeɪ/</span><span class='pos'>اسم</span></div>
 <p class="meaning">الأحد</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/the-museum-is-closed-on-sunday-efff6f75.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>The museum is closed on Sunday.</p><p class="tr">المتحف مغلق يوم الأحد.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/the-museum-is-closed-on-sunday-efff6f75.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='32.812'>The</span> <span class='pw' data-t='32.975'>museum</span> <span class='pw' data-t='33.45'>is</span> <span class='pw' data-t='33.587'>closed</span> <span class='pw' data-t='34.025'>on</span> <span class='pw' data-t='34.2'>Sunday</span>.</p><p class="tr">المتحف مغلق يوم الأحد.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/day-1-5-1959e067.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/weekday.mp3' aria-label='انطق: weekday (أمريكي)' title='انطق: weekday (أمريكي)'></button><h2 lang='en' dir='ltr'>weekday</h2><button type='button' class='spk small' data-src='../../media/audio/uk/weekday.mp3' aria-label='انطق: weekday (بريطاني)' title='انطق: weekday (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/weekday.mp3' aria-label='انطق: weekday (أمريكي)' title='انطق: weekday (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='36.22'>weekday</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/weekday.mp3' aria-label='انطق: weekday (بريطاني)' title='انطق: weekday (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/ˈwiːkdeɪ/</span><span class='pos'>اسم</span></div>
 <p class="meaning">يوم من أيام الأسبوع (العمل)</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/the-trains-are-crowded-on-weekdays-9e7abe34.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>The trains are crowded on weekdays.</p><p class="tr">تزدحم القطارات في أيام العمل.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/the-trains-are-crowded-on-weekdays-9e7abe34.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='37.828'>The</span> <span class='pw' data-t='38.003'>trains</span> <span class='pw' data-t='38.416'>are</span> <span class='pw' data-t='38.528'>crowded</span> <span class='pw' data-t='38.928'>on</span> <span class='pw' data-t='39.09'>weekdays</span>.</p><p class="tr">تزدحم القطارات في أيام العمل.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/day-6-7-f21897ce.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/weekend.mp3' aria-label='انطق: weekend (أمريكي)' title='انطق: weekend (أمريكي)'></button><h2 lang='en' dir='ltr'>weekend</h2><button type='button' class='spk small' data-src='../../media/audio/uk/weekend.mp3' aria-label='انطق: weekend (بريطاني)' title='انطق: weekend (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/weekend.mp3' aria-label='انطق: weekend (أمريكي)' title='انطق: weekend (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='41.308'>weekend</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/weekend.mp3' aria-label='انطق: weekend (بريطاني)' title='انطق: weekend (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/ˈwiːkend/</span><span class='pos'>اسم</span></div>
 <p class="meaning">عطلة نهاية الأسبوع</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/what-did-you-do-last-weekend-d7013306.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>What did you do last weekend?</p><p class="tr">ماذا فعلت في عطلة نهاية الأسبوع الماضية؟</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/what-did-you-do-last-weekend-d7013306.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='42.964'>What</span> <span class='pw' data-t='43.214'>did</span> <span class='pw' data-t='43.352'>you</span> <span class='pw' data-t='43.452'>do</span> <span class='pw' data-t='43.627'>last</span> <span class='pw' data-t='43.964'>weekend</span>?</p><p class="tr">ماذا فعلت في عطلة نهاية الأسبوع الماضية؟</p></div></div>
 </div>
-</article></div>
+</article></div></div>
 </section>
 <section class="panel" data-panel="quiz" hidden><div class="quiz"><p class="quiz-intro">ستسمع كلمة من كلمات الصفحة، فاضغط على الصورة التي تعبر عنها.</p><button type="button" class="quiz-go">ابدأ الاختبار</button></div></section>
 <section class="panel" data-panel="conversation" hidden><p class='hint'>الكلمات المميزة هي كلمات هذه الصفحة. اضغط على أي كلمة ليبدأ الصوت منها ويكمل ما بعدها.</p><section class="block dialogue timed">

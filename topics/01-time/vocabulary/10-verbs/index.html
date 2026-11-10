@@ -13,191 +13,202 @@
 <div class='tabs' role='tablist'><button type='button' role='tab' data-tab='words'>الكلمات</button><button type='button' role='tab' data-tab='quiz'>الاختبار</button><button type='button' role='tab' data-tab='conversation'>المحادثة</button><button type='button' role='tab' data-tab='paragraph'>الفقرة</button></div>
 <section class="panel" data-panel="words">
 <p class="hint">مرّر الماوس على السماعة أو اضغط عليها لتسمع النطق. السماعة الكبيرة نطق أمريكي (وهو المكتوب بالرموز)، وزر UK نطق بريطاني.</p>
-<div class='cards'><article class="card">
+<div class='timed word-track'><div class="player" dir="ltr">
+<audio src="../../media/audio/wordtracks/wait-i-waited-for-an-hour-at-the-station-4a9a8474.mp3" preload="none"></audio>
+<div class="player-buttons">
+<button type="button" class="p-back" aria-label="رجوع 5 ثوان" title="رجوع 5 ثوان">« 5</button>
+<button type="button" class="p-play" aria-label="تشغيل أو إيقاف مؤقت" title="تشغيل / إيقاف مؤقت"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button>
+<button type="button" class="p-forward" aria-label="تقديم 5 ثوان" title="تقديم 5 ثوان">5 »</button>
+<button type="button" class="p-stop" aria-label="إيقاف" title="إيقاف"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h12v12H6z"/></svg></button>
+<button type="button" class="p-loop" aria-pressed="false" aria-label="تكرار دائم" title="تكرار دائم"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 2l4 4-4 4V7H7v4H5V5h12zM7 22l-4-4 4-4v3h10v-4h2v6H7z"/></svg></button>
+</div>
+<div class="player-seek"><span class="p-time">0:00</span><input class="p-seek" type="range" min="0" max="111.55" step="0.05" value="0" aria-label="موضع الصوت"><span class="p-total">1:51</span></div>
+<div class="player-speeds" role="group" aria-label="سرعة الصوت"><button type='button' data-speed='0.5' aria-pressed='false'>0.5x</button><button type='button' data-speed='1' aria-pressed='true'>1x</button><button type='button' data-speed='1.5' aria-pressed='false'>1.5x</button><button type='button' data-speed='2' aria-pressed='false'>2x</button></div>
+</div><div class='cards timed-text'><article class="card">
 <img src="../../media/images/badge-a6c7fad2.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/wait.mp3' aria-label='انطق: wait (أمريكي)' title='انطق: wait (أمريكي)'></button><h2 lang='en' dir='ltr'>wait</h2><button type='button' class='spk small' data-src='../../media/audio/uk/wait.mp3' aria-label='انطق: wait (بريطاني)' title='انطق: wait (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/wait.mp3' aria-label='انطق: wait (أمريكي)' title='انطق: wait (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='0.1'>wait</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/wait.mp3' aria-label='انطق: wait (بريطاني)' title='انطق: wait (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/weɪt/</span><span class='pos'>فعل</span></div>
 <p class="meaning">ينتظر</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/i-waited-for-an-hour-at-the-station-016ae585.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>I waited for an hour at the station.</p><p class="tr">انتظرت ساعة في المحطة.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/i-waited-for-an-hour-at-the-station-016ae585.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='1.564'>I</span> <span class='pw' data-t='1.726'>waited</span> <span class='pw' data-t='2.101'>for</span> <span class='pw' data-t='2.252'>an</span> <span class='pw' data-t='2.414'>hour</span> <span class='pw' data-t='2.726'>at</span> <span class='pw' data-t='2.827'>the</span> <span class='pw' data-t='2.926'>station</span>.</p><p class="tr">انتظرت ساعة في المحطة.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/e-1f3c3.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/hurry.mp3' aria-label='انطق: hurry (أمريكي)' title='انطق: hurry (أمريكي)'></button><h2 lang='en' dir='ltr'>hurry</h2><button type='button' class='spk small' data-src='../../media/audio/uk/hurry.mp3' aria-label='انطق: hurry (بريطاني)' title='انطق: hurry (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/hurry.mp3' aria-label='انطق: hurry (أمريكي)' title='انطق: hurry (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='5.02'>hurry</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/hurry.mp3' aria-label='انطق: hurry (بريطاني)' title='انطق: hurry (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/ˈhɜːri/</span><span class='pos'>فعل</span></div>
 <p class="meaning">يُسرع / يستعجل</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/hurry-up-or-we-ll-miss-the-train-a2aa93ba.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>Hurry up, or we&#x27;ll miss the train.</p><p class="tr">أسرع وإلا فاتنا القطار.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/hurry-up-or-we-ll-miss-the-train-a2aa93ba.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='6.46'>Hurry</span> <span class='pw' data-t='6.823'>up</span>, <span class='pw' data-t='7.248'>or</span> <span class='pw' data-t='7.398'>we&#x27;ll</span> <span class='pw' data-t='7.56'>miss</span> <span class='pw' data-t='7.798'>the</span> <span class='pw' data-t='7.91'>train</span>.</p><p class="tr">أسرع وإلا فاتنا القطار.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/badge-ce858f59.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/rush.mp3' aria-label='انطق: rush (أمريكي)' title='انطق: rush (أمريكي)'></button><h2 lang='en' dir='ltr'>rush</h2><button type='button' class='spk small' data-src='../../media/audio/uk/rush.mp3' aria-label='انطق: rush (بريطاني)' title='انطق: rush (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/rush.mp3' aria-label='انطق: rush (أمريكي)' title='انطق: rush (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='9.916'>rush</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/rush.mp3' aria-label='انطق: rush (بريطاني)' title='انطق: rush (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/rʌʃ/</span><span class='pos'>فعل</span></div>
 <p class="meaning">يندفع / يتعجل</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/don-t-rush-your-decision-c9dd53d8.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>Don&#x27;t rush your decision.</p><p class="tr">لا تتعجل في قرارك.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/don-t-rush-your-decision-c9dd53d8.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='11.5'>Don&#x27;t</span> <span class='pw' data-t='11.8'>rush</span> <span class='pw' data-t='12.075'>your</span> <span class='pw' data-t='12.188'>decision</span>.</p><p class="tr">لا تتعجل في قرارك.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/cap-2-hours-933463ea.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/last.mp3' aria-label='انطق: last (أمريكي)' title='انطق: last (أمريكي)'></button><h2 lang='en' dir='ltr'>last</h2><button type='button' class='spk small' data-src='../../media/audio/uk/last.mp3' aria-label='انطق: last (بريطاني)' title='انطق: last (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/last.mp3' aria-label='انطق: last (أمريكي)' title='انطق: last (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='14.308'>last</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/last.mp3' aria-label='انطق: last (بريطاني)' title='انطق: last (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/læst/</span><span class='pos'>فعل</span></div>
 <p class="meaning">يستمر / يدوم</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/the-meeting-lasted-two-hours-3f46383a.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>The meeting lasted two hours.</p><p class="tr">استمر الاجتماع ساعتين.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/the-meeting-lasted-two-hours-3f46383a.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='15.916'>The</span> <span class='pw' data-t='16.104'>meeting</span> <span class='pw' data-t='16.466'>lasted</span> <span class='pw' data-t='16.916'>two</span> <span class='pw' data-t='17.154'>hours</span>.</p><p class="tr">استمر الاجتماع ساعتين.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/cap-1-hour-f1dfbfab.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/take.mp3' aria-label='انطق: take (أمريكي)' title='انطق: take (أمريكي)'></button><h2 lang='en' dir='ltr'>take</h2><button type='button' class='spk small' data-src='../../media/audio/uk/take.mp3' aria-label='انطق: take (بريطاني)' title='انطق: take (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/take.mp3' aria-label='انطق: take (أمريكي)' title='انطق: take (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='19.228'>take</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/take.mp3' aria-label='انطق: take (بريطاني)' title='انطق: take (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/teɪk/</span><span class='pos'>فعل</span></div>
 <p class="meaning">يستغرق</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/it-takes-me-an-hour-to-get-to-work-5874168c.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>It takes me an hour to get to work.</p><p class="tr">يستغرق وصولي إلى العمل ساعة.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/it-takes-me-an-hour-to-get-to-work-5874168c.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='20.692'>It</span> <span class='pw' data-t='20.892'>takes</span> <span class='pw' data-t='21.217'>me</span> <span class='pw' data-t='21.342'>an</span> <span class='pw' data-t='21.467'>hour</span> <span class='pw' data-t='21.779'>to</span> <span class='pw' data-t='21.892'>get</span> <span class='pw' data-t='22.079'>to</span> <span class='pw' data-t='22.179'>work</span>.</p><p class="tr">يستغرق وصولي إلى العمل ساعة.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/together-e7126de3.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/spend.mp3' aria-label='انطق: spend (أمريكي)' title='انطق: spend (أمريكي)'></button><h2 lang='en' dir='ltr'>spend</h2><button type='button' class='spk small' data-src='../../media/audio/uk/spend.mp3' aria-label='انطق: spend (بريطاني)' title='انطق: spend (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/spend.mp3' aria-label='انطق: spend (أمريكي)' title='انطق: spend (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='24.124'>spend</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/spend.mp3' aria-label='انطق: spend (بريطاني)' title='انطق: spend (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/spend/</span><span class='pos'>فعل</span></div>
 <p class="meaning">يقضي (وقتًا)</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/i-spend-too-much-time-on-my-phone-95559d26.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>I spend too much time on my phone.</p><p class="tr">أقضي وقتًا طويلًا على هاتفي.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/i-spend-too-much-time-on-my-phone-95559d26.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='25.78'>I</span> <span class='pw' data-t='25.93'>spend</span> <span class='pw' data-t='26.267'>too</span> <span class='pw' data-t='26.43'>much</span> <span class='pw' data-t='26.692'>time</span> <span class='pw' data-t='26.992'>on</span> <span class='pw' data-t='27.105'>my</span> <span class='pw' data-t='27.267'>phone</span>.</p><p class="tr">أقضي وقتًا طويلًا على هاتفي.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/pair-636006ae.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/waste.mp3' aria-label='انطق: waste (أمريكي)' title='انطق: waste (أمريكي)'></button><h2 lang='en' dir='ltr'>waste</h2><button type='button' class='spk small' data-src='../../media/audio/uk/waste.mp3' aria-label='انطق: waste (بريطاني)' title='انطق: waste (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/waste.mp3' aria-label='انطق: waste (أمريكي)' title='انطق: waste (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='29.26'>waste</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/waste.mp3' aria-label='انطق: waste (بريطاني)' title='انطق: waste (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/weɪst/</span><span class='pos'>فعل</span></div>
 <p class="meaning">يُضيّع</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/don-t-waste-your-time-on-this-8848acd1.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>Don&#x27;t waste your time on this.</p><p class="tr">لا تضيّع وقتك في هذا.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/don-t-waste-your-time-on-this-8848acd1.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='30.844'>Don&#x27;t</span> <span class='pw' data-t='31.119'>waste</span> <span class='pw' data-t='31.444'>your</span> <span class='pw' data-t='31.569'>time</span> <span class='pw' data-t='31.844'>on</span> <span class='pw' data-t='31.994'>this</span>.</p><p class="tr">لا تضيّع وقتك في هذا.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/pair-8b5045ff.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/save.mp3' aria-label='انطق: save (أمريكي)' title='انطق: save (أمريكي)'></button><h2 lang='en' dir='ltr'>save</h2><button type='button' class='spk small' data-src='../../media/audio/uk/save.mp3' aria-label='انطق: save (بريطاني)' title='انطق: save (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/save.mp3' aria-label='انطق: save (أمريكي)' title='انطق: save (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='33.916'>save</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/save.mp3' aria-label='انطق: save (بريطاني)' title='انطق: save (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/seɪv/</span><span class='pos'>فعل</span></div>
 <p class="meaning">يوفّر</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/this-new-system-saves-a-lot-of-time-f1207b91.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>This new system saves a lot of time.</p><p class="tr">يوفر هذا النظام الجديد وقتًا كثيرًا.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/this-new-system-saves-a-lot-of-time-f1207b91.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='35.572'>This</span> <span class='pw' data-t='35.847'>new</span> <span class='pw' data-t='36.072'>system</span> <span class='pw' data-t='36.522'>saves</span> <span class='pw' data-t='36.872'>a</span> <span class='pw' data-t='36.947'>lot</span> <span class='pw' data-t='37.172'>of</span> <span class='pw' data-t='37.26'>time</span>.</p><p class="tr">يوفر هذا النظام الجديد وقتًا كثيرًا.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/badge-8c3858b7.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/schedule.mp3' aria-label='انطق: schedule (أمريكي)' title='انطق: schedule (أمريكي)'></button><h2 lang='en' dir='ltr'>schedule</h2><button type='button' class='spk small' data-src='../../media/audio/uk/schedule.mp3' aria-label='انطق: schedule (بريطاني)' title='انطق: schedule (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/schedule.mp3' aria-label='انطق: schedule (أمريكي)' title='انطق: schedule (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='39.244'>schedule</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/schedule.mp3' aria-label='انطق: schedule (بريطاني)' title='انطق: schedule (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/ˈskedʒuːl/</span><span class='pos'>فعل</span></div>
 <p class="meaning">يحدد موعدًا</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/let-s-schedule-the-call-for-monday-dad6bfda.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>Let&#x27;s schedule the call for Monday.</p><p class="tr">لنحدد موعد المكالمة يوم الاثنين.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/let-s-schedule-the-call-for-monday-dad6bfda.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='40.948'>Let&#x27;s</span> <span class='pw' data-t='41.31'>schedule</span> <span class='pw' data-t='41.71'>the</span> <span class='pw' data-t='41.823'>call</span> <span class='pw' data-t='42.098'>for</span> <span class='pw' data-t='42.248'>Monday</span>.</p><p class="tr">لنحدد موعد المكالمة يوم الاثنين.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/badge-c491de15.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/reschedule.mp3' aria-label='انطق: reschedule (أمريكي)' title='انطق: reschedule (أمريكي)'></button><h2 lang='en' dir='ltr'>reschedule</h2><button type='button' class='spk small' data-src='../../media/audio/uk/reschedule.mp3' aria-label='انطق: reschedule (بريطاني)' title='انطق: reschedule (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/reschedule.mp3' aria-label='انطق: reschedule (أمريكي)' title='انطق: reschedule (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='44.284'>reschedule</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/reschedule.mp3' aria-label='انطق: reschedule (بريطاني)' title='انطق: reschedule (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/ˌriːˈskedʒuːl/</span><span class='pos'>فعل</span></div>
 <p class="meaning">يغيّر الموعد</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/can-we-reschedule-our-meeting-50d52b66.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>Can we reschedule our meeting?</p><p class="tr">هل يمكننا تغيير موعد اجتماعنا؟</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/can-we-reschedule-our-meeting-50d52b66.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='46.108'>Can</span> <span class='pw' data-t='46.321'>we</span> <span class='pw' data-t='46.458'>reschedule</span> <span class='pw' data-t='47.046'>our</span> <span class='pw' data-t='47.158'>meeting</span>?</p><p class="tr">هل يمكننا تغيير موعد اجتماعنا؟</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/badge-096e476f.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/postpone.mp3' aria-label='انطق: postpone (أمريكي)' title='انطق: postpone (أمريكي)'></button><h2 lang='en' dir='ltr'>postpone</h2><button type='button' class='spk small' data-src='../../media/audio/uk/postpone.mp3' aria-label='انطق: postpone (بريطاني)' title='انطق: postpone (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/postpone.mp3' aria-label='انطق: postpone (أمريكي)' title='انطق: postpone (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='49.084'>postpone</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/postpone.mp3' aria-label='انطق: postpone (بريطاني)' title='انطق: postpone (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/poʊstˈpoʊn/</span><span class='pos'>فعل</span></div>
 <p class="meaning">يؤجّل</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/the-match-was-postponed-because-of-rain-f04abff1.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>The match was postponed because of rain.</p><p class="tr">تأجلت المباراة بسبب المطر.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/the-match-was-postponed-because-of-rain-f04abff1.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='50.764'>The</span> <span class='pw' data-t='50.952'>match</span> <span class='pw' data-t='51.289'>was</span> <span class='pw' data-t='51.439'>postponed</span> <span class='pw' data-t='52.052'>because</span> <span class='pw' data-t='52.389'>of</span> <span class='pw' data-t='52.502'>rain</span>.</p><p class="tr">تأجلت المباراة بسبب المطر.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/badge-7ee12329.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/delay.mp3' aria-label='انطق: delay (أمريكي)' title='انطق: delay (أمريكي)'></button><h2 lang='en' dir='ltr'>delay</h2><button type='button' class='spk small' data-src='../../media/audio/uk/delay.mp3' aria-label='انطق: delay (بريطاني)' title='انطق: delay (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/delay.mp3' aria-label='انطق: delay (أمريكي)' title='انطق: delay (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='54.412'>delay</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/delay.mp3' aria-label='انطق: delay (بريطاني)' title='انطق: delay (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/dɪˈleɪ/</span><span class='pos'>فعل</span></div>
 <p class="meaning">يؤخّر</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/heavy-traffic-delayed-our-arrival-3a125de1.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>Heavy traffic delayed our arrival.</p><p class="tr">أخّر الازدحام الشديد وصولنا.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/heavy-traffic-delayed-our-arrival-3a125de1.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='55.948'>Heavy</span> <span class='pw' data-t='56.285'>traffic</span> <span class='pw' data-t='56.761'>delayed</span> <span class='pw' data-t='57.148'>our</span> <span class='pw' data-t='57.273'>arrival</span>.</p><p class="tr">أخّر الازدحام الشديد وصولنا.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/badge-e823bb58.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/cancel.mp3' aria-label='انطق: cancel (أمريكي)' title='انطق: cancel (أمريكي)'></button><h2 lang='en' dir='ltr'>cancel</h2><button type='button' class='spk small' data-src='../../media/audio/uk/cancel.mp3' aria-label='انطق: cancel (بريطاني)' title='انطق: cancel (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/cancel.mp3' aria-label='انطق: cancel (أمريكي)' title='انطق: cancel (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='59.332'>cancel</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/cancel.mp3' aria-label='انطق: cancel (بريطاني)' title='انطق: cancel (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/ˈkænsəl/</span><span class='pos'>فعل</span></div>
 <p class="meaning">يُلغي</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/they-had-to-cancel-the-flight-3683d068.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>They had to cancel the flight.</p><p class="tr">اضطروا إلى إلغاء الرحلة.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/they-had-to-cancel-the-flight-3683d068.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='60.916'>They</span> <span class='pw' data-t='61.116'>had</span> <span class='pw' data-t='61.379'>to</span> <span class='pw' data-t='61.466'>cancel</span> <span class='pw' data-t='61.904'>the</span> <span class='pw' data-t='62.016'>flight</span>.</p><p class="tr">اضطروا إلى إلغاء الرحلة.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/badge-7720e121.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/expire.mp3' aria-label='انطق: expire (أمريكي)' title='انطق: expire (أمريكي)'></button><h2 lang='en' dir='ltr'>expire</h2><button type='button' class='spk small' data-src='../../media/audio/uk/expire.mp3' aria-label='انطق: expire (بريطاني)' title='انطق: expire (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/expire.mp3' aria-label='انطق: expire (أمريكي)' title='انطق: expire (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='64.036'>expire</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/expire.mp3' aria-label='انطق: expire (بريطاني)' title='انطق: expire (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/ɪkˈspaɪər/</span><span class='pos'>فعل</span></div>
 <p class="meaning">ينتهي (صلاحيته)</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/my-passport-expires-next-month-745e5112.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>My passport expires next month.</p><p class="tr">ينتهي جواز سفري الشهر القادم.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/my-passport-expires-next-month-745e5112.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='65.74'>My</span> <span class='pw' data-t='65.953'>passport</span> <span class='pw' data-t='66.515'>expires</span> <span class='pw' data-t='67.127'>next</span> <span class='pw' data-t='67.453'>month</span>.</p><p class="tr">ينتهي جواز سفري الشهر القادم.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/cap-action-84303492.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/begin.mp3' aria-label='انطق: begin (أمريكي)' title='انطق: begin (أمريكي)'></button><h2 lang='en' dir='ltr'>begin</h2><button type='button' class='spk small' data-src='../../media/audio/uk/begin.mp3' aria-label='انطق: begin (بريطاني)' title='انطق: begin (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/begin.mp3' aria-label='انطق: begin (أمريكي)' title='انطق: begin (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='69.388'>begin</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/begin.mp3' aria-label='انطق: begin (بريطاني)' title='انطق: begin (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/bɪˈɡɪn/</span><span class='pos'>فعل</span></div>
 <p class="meaning">يبدأ</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/the-lesson-begins-at-ten-647bf296.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>The lesson begins at ten.</p><p class="tr">يبدأ الدرس في العاشرة.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/the-lesson-begins-at-ten-647bf296.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='70.924'>The</span> <span class='pw' data-t='71.099'>lesson</span> <span class='pw' data-t='71.474'>begins</span> <span class='pw' data-t='71.912'>at</span> <span class='pw' data-t='72.049'>ten</span>.</p><p class="tr">يبدأ الدرس في العاشرة.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/e-1f6a6.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/start.mp3' aria-label='انطق: start (أمريكي)' title='انطق: start (أمريكي)'></button><h2 lang='en' dir='ltr'>start</h2><button type='button' class='spk small' data-src='../../media/audio/uk/start.mp3' aria-label='انطق: start (بريطاني)' title='انطق: start (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/start.mp3' aria-label='انطق: start (أمريكي)' title='انطق: start (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='73.996'>start</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/start.mp3' aria-label='انطق: start (بريطاني)' title='انطق: start (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/stɑːrt/</span><span class='pos'>فعل</span></div>
 <p class="meaning">يبدأ</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/what-time-does-the-film-start-57c170b6.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>What time does the film start?</p><p class="tr">متى يبدأ الفيلم؟</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/what-time-does-the-film-start-57c170b6.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='75.628'>What</span> <span class='pw' data-t='75.928'>time</span> <span class='pw' data-t='76.241'>does</span> <span class='pw' data-t='76.391'>the</span> <span class='pw' data-t='76.503'>film</span> <span class='pw' data-t='76.791'>start</span>?</p><p class="tr">متى يبدأ الفيلم؟</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/e-1f3c1.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/finish.mp3' aria-label='انطق: finish (أمريكي)' title='انطق: finish (أمريكي)'></button><h2 lang='en' dir='ltr'>finish</h2><button type='button' class='spk small' data-src='../../media/audio/uk/finish.mp3' aria-label='انطق: finish (بريطاني)' title='انطق: finish (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/finish.mp3' aria-label='انطق: finish (أمريكي)' title='انطق: finish (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='78.772'>finish</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/finish.mp3' aria-label='انطق: finish (بريطاني)' title='انطق: finish (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/ˈfɪnɪʃ/</span><span class='pos'>فعل</span></div>
 <p class="meaning">يُنهي</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/i-ll-finish-this-by-tonight-42a1c78a.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>I&#x27;ll finish this by tonight.</p><p class="tr">سأنهي هذا بحلول الليلة.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/i-ll-finish-this-by-tonight-42a1c78a.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='80.404'>I&#x27;ll</span> <span class='pw' data-t='80.629'>finish</span> <span class='pw' data-t='81.017'>this</span> <span class='pw' data-t='81.229'>by</span> <span class='pw' data-t='81.379'>tonight</span>.</p><p class="tr">سأنهي هذا بحلول الليلة.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/pair-2fdfa47b.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/end.mp3' aria-label='انطق: end (أمريكي)' title='انطق: end (أمريكي)'></button><h2 lang='en' dir='ltr'>end</h2><button type='button' class='spk small' data-src='../../media/audio/uk/end.mp3' aria-label='انطق: end (بريطاني)' title='انطق: end (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/end.mp3' aria-label='انطق: end (أمريكي)' title='انطق: end (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='83.476'>end</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/end.mp3' aria-label='انطق: end (بريطاني)' title='انطق: end (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/end/</span><span class='pos'>فعل</span></div>
 <p class="meaning">ينتهي</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/the-contract-ends-in-june-12c2b285.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>The contract ends in June.</p><p class="tr">ينتهي العقد في يونيو.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/the-contract-ends-in-june-12c2b285.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='84.964'>The</span> <span class='pw' data-t='85.127'>contract</span> <span class='pw' data-t='85.776'>ends</span> <span class='pw' data-t='86.052'>in</span> <span class='pw' data-t='86.189'>June</span>.</p><p class="tr">ينتهي العقد في يونيو.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/rep-3-3ba30664.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/continue.mp3' aria-label='انطق: continue (أمريكي)' title='انطق: continue (أمريكي)'></button><h2 lang='en' dir='ltr'>continue</h2><button type='button' class='spk small' data-src='../../media/audio/uk/continue.mp3' aria-label='انطق: continue (بريطاني)' title='انطق: continue (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/continue.mp3' aria-label='انطق: continue (أمريكي)' title='انطق: continue (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='88.156'>continue</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/continue.mp3' aria-label='انطق: continue (بريطاني)' title='انطق: continue (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/kənˈtɪnjuː/</span><span class='pos'>فعل</span></div>
 <p class="meaning">يستمر / يواصل</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/please-continue-with-your-work-3d266686.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>Please continue with your work.</p><p class="tr">من فضلك واصل عملك.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/please-continue-with-your-work-3d266686.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='89.86'>Please</span> <span class='pw' data-t='90.198'>continue</span> <span class='pw' data-t='90.672'>with</span> <span class='pw' data-t='90.835'>your</span> <span class='pw' data-t='90.973'>work</span>.</p><p class="tr">من فضلك واصل عملك.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/pair-4f1d1f30.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/pass.mp3' aria-label='انطق: pass (أمريكي)' title='انطق: pass (أمريكي)'></button><h2 lang='en' dir='ltr'>pass</h2><button type='button' class='spk small' data-src='../../media/audio/uk/pass.mp3' aria-label='انطق: pass (بريطاني)' title='انطق: pass (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/pass.mp3' aria-label='انطق: pass (أمريكي)' title='انطق: pass (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='92.908'>pass</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/pass.mp3' aria-label='انطق: pass (بريطاني)' title='انطق: pass (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/pæs/</span><span class='pos'>فعل</span></div>
 <p class="meaning">يمر (الوقت)</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/time-passes-quickly-when-you-re-busy-e3556e62.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>Time passes quickly when you&#x27;re busy.</p><p class="tr">يمر الوقت بسرعة حين تكون مشغولًا.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/time-passes-quickly-when-you-re-busy-e3556e62.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='94.492'>Time</span> <span class='pw' data-t='94.842'>passes</span> <span class='pw' data-t='95.267'>quickly</span> <span class='pw' data-t='95.704'>when</span> <span class='pw' data-t='95.867'>you&#x27;re</span> <span class='pw' data-t='96.004'>busy</span>.</p><p class="tr">يمر الوقت بسرعة حين تكون مشغولًا.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/badge-66d3c4e7.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/oversleep.mp3' aria-label='انطق: oversleep (أمريكي)' title='انطق: oversleep (أمريكي)'></button><h2 lang='en' dir='ltr'>oversleep</h2><button type='button' class='spk small' data-src='../../media/audio/uk/oversleep.mp3' aria-label='انطق: oversleep (بريطاني)' title='انطق: oversleep (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/oversleep.mp3' aria-label='انطق: oversleep (أمريكي)' title='انطق: oversleep (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='97.972'>oversleep</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/oversleep.mp3' aria-label='انطق: oversleep (بريطاني)' title='انطق: oversleep (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/ˌoʊvərˈsliːp/</span><span class='pos'>فعل</span></div>
 <p class="meaning">يغلبه النوم فيتأخر</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/i-overslept-and-missed-the-bus-0440f9d3.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>I overslept and missed the bus.</p><p class="tr">غلبني النوم وفاتتني الحافلة.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/i-overslept-and-missed-the-bus-0440f9d3.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='99.748'>I</span> <span class='pw' data-t='99.935'>overslept</span> <span class='pw' data-t='100.635'>and</span> <span class='pw' data-t='100.798'>missed</span> <span class='pw' data-t='101.085'>the</span> <span class='pw' data-t='101.185'>bus</span>.</p><p class="tr">غلبني النوم وفاتتني الحافلة.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/badge-ed9edf79.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/set.mp3' aria-label='انطق: set (أمريكي)' title='انطق: set (أمريكي)'></button><h2 lang='en' dir='ltr'>set</h2><button type='button' class='spk small' data-src='../../media/audio/uk/set.mp3' aria-label='انطق: set (بريطاني)' title='انطق: set (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/set.mp3' aria-label='انطق: set (أمريكي)' title='انطق: set (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='103.18'>set</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/set.mp3' aria-label='انطق: set (بريطاني)' title='انطق: set (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/set/</span><span class='pos'>فعل</span></div>
 <p class="meaning">يضبط</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/don-t-forget-to-set-your-alarm-90521c80.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>Don&#x27;t forget to set your alarm.</p><p class="tr">لا تنسَ ضبط منبهك.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/don-t-forget-to-set-your-alarm-90521c80.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='104.764'>Don&#x27;t</span> <span class='pw' data-t='105.064'>forget</span> <span class='pw' data-t='105.427'>to</span> <span class='pw' data-t='105.514'>set</span> <span class='pw' data-t='105.776'>your</span> <span class='pw' data-t='105.914'>alarm</span>.</p><p class="tr">لا تنسَ ضبط منبهك.</p></div></div>
 </div>
 </article><article class="card">
 <img src="../../media/images/badge-2e12c109.svg" alt="" width="104" height="104" loading="lazy">
 <div class="card-body">
-<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/remind.mp3' aria-label='انطق: remind (أمريكي)' title='انطق: remind (أمريكي)'></button><h2 lang='en' dir='ltr'>remind</h2><button type='button' class='spk small' data-src='../../media/audio/uk/remind.mp3' aria-label='انطق: remind (بريطاني)' title='انطق: remind (بريطاني)'>UK</button></div>
+<div class="head"><button type='button' class='spk big' data-src='../../media/audio/us/remind.mp3' aria-label='انطق: remind (أمريكي)' title='انطق: remind (أمريكي)'></button><h2 lang="en" dir="ltr"><span class='pw' data-t='107.932'>remind</span></h2><button type='button' class='spk small' data-src='../../media/audio/uk/remind.mp3' aria-label='انطق: remind (بريطاني)' title='انطق: remind (بريطاني)'>UK</button></div>
 <div class="meta"><span lang='en' dir='ltr' class='ipa'>/rɪˈmaɪnd/</span><span class='pos'>فعل</span></div>
 <p class="meaning">يذكّر</p>
-<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/please-remind-me-about-the-appointment-2cf9b802.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang='en' dir='ltr'>Please remind me about the appointment.</p><p class="tr">من فضلك ذكّرني بالموعد.</p></div></div>
+<div class="example"><button type='button' class='spk small' data-src='../../media/audio/sentences/please-remind-me-about-the-appointment-2cf9b802.mp3' aria-label='استمع إلى الجملة' title='استمع إلى الجملة'></button><div><p lang="en" dir="ltr"><span class='pw' data-t='109.588'>Please</span> <span class='pw' data-t='109.951'>remind</span> <span class='pw' data-t='110.363'>me</span> <span class='pw' data-t='110.513'>about</span> <span class='pw' data-t='110.788'>the</span> <span class='pw' data-t='110.888'>appointment</span>.</p><p class="tr">من فضلك ذكّرني بالموعد.</p></div></div>
 </div>
-</article></div>
+</article></div></div>
 </section>
 <section class="panel" data-panel="quiz" hidden><div class="quiz"><p class="quiz-intro">ستسمع كلمة من كلمات الصفحة، فاضغط على الصورة التي تعبر عنها.</p><button type="button" class="quiz-go">ابدأ الاختبار</button></div></section>
 <section class="panel" data-panel="conversation" hidden><p class='hint'>الكلمات المميزة هي كلمات هذه الصفحة. اضغط على أي كلمة ليبدأ الصوت منها ويكمل ما بعدها.</p><section class="block dialogue timed">

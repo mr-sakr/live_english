@@ -22,6 +22,8 @@
 
   function play(button, fromHover) {
     player.pause();
+    // A single word must not talk over a page's player bar.
+    document.querySelectorAll('.player audio').forEach(function (audio) { audio.pause(); });
     setActive(button);
     player.src = button.dataset.src;
     player.play().catch(function (error) {
